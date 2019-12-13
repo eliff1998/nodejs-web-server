@@ -1,0 +1,121 @@
+<html>
+    <head>
+            <link href="hediyekartı.css" type="text/css" rel="stylesheet"/>
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <title>D&R-Kültür Sanat ve Eğlence Dünyası</title>
+    </head>
+    
+    <ul>
+
+
+
+  
+
+        <section class="catPagesCont clearfix">
+            <div id="catPageContent" class="catPagesContCenter">
+        <div class="side-2">
+        </div>
+            
+        
+        <form method="post" novalidate="novalidate" id="product-details-form">
+        <section class="gift-card-details" style="width:100%;">
+            <div class="container">
+                <div class="head">
+                    <h2 class="product-name text-center">dr.com.tr (Sanal) HEDİYE KART</h2>
+                </div>
+                <div class="all-details">
+                    <div class="images">
+                        <figure class="big-image">
+                            <img src="C:\Users\eliff\OneDrive\Masaüstü\d&r\foto/hediyekartı.png"  alt="Hediye Kartı"/>
+                        </figure>
+                       
+                    </div>
+                    <div class="specs">
+                        <div class="gift-card-summary" >
+                            <p><strong>Bir armağanla yüzlerce seçenek!</strong></p>
+                            <p>Sevdiklerinize (<a href="http://www.dr.com.tr/" target="_self">www.dr.com.tr</a>’de geçerli) D&R Hediye Kartı armağan edin, D&R'ın kitaptan film ve müziğe, elektronikten oyun ve hobiye kadar pek çok ürününden beğendiklerini kendileri seçsin.</p>
+                            <p><strong>"Ne alsam?"</strong> diye düşünmeyin.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        
+        <section class="personal-info">
+            <div class="container">
+                <div class="half">
+                    <div class="form-row">
+                        <label for="person">Gönderilecek Kişi</label>
+                        <input type="text" id="giftcard_RecipientName" name="giftcard_RecipientName"/>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">E-Posta</label>
+                        <input type="text" id="giftcard_RecipientEmail" name="giftcard_RecipientEmail""/>
+                    </div>
+                    <div class="form-row">
+                        <label for="email-check">E-Posta (Tekrar)</label>
+                        <input type="text" id="email-check"/>
+                    </div>
+                </div>
+                <div class="half">
+                    
+                    <div class="form-row">
+                        <label for="price">Tutar</label>
+                        <select name="price" id="price" class="custom">
+                            <option value="">SEÇİNİZ</option>
+                                <option value="825802">25,00 TL</option>
+                                <option value="825803">50,00 TL</option>
+                                <option value="825804">100,00 TL</option>
+                                <option value="825805">250,00 TL</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Mesaj</label>
+                        <textarea name="giftcard_Message" id="giftcard_Message"></textarea>
+                    </div>
+                </div>
+                <div class="full">
+                    <div class="half"></div>
+                    <div class="half">
+                        <a class="btn red" href="javascript:;" onclick="addproducttocart_details();">Sepete Ekle</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </form>
+        
+        <section class="gift-card-checklist">
+            <div class="container">
+                <header>
+                    <h2 style="margin-left: -180px;">Hediye Kart Hakkında Nelere Dikkat Etmelisiniz?</h2>
+                </header>
+                <div class="three-col" style="margin-left: -160px;">
+                    <h4>Alırken</h4>
+                    <ul>
+                        <li>www.dr.com.tr den alınan hediye kartları sadece online mağaza da (dr.com.tr) kullanılabilir.</li>
+                        <li>Hediye Kartı Sipariş Formu'nu eksiksiz doldurunuz.</li>
+                        <li>Sipariş formuna yazdığınız e-posta adreslerinin doğruluğunu kontrol ediniz.</li>
+                        <li>Formu eksiksiz doldurduktan sonra "SEPETE EKLE" tuşuna basıp hediye kartı siparişinizi tamamlayın.</li>
+                    </ul>
+                </div>
+                <div class="three-col">
+                    <h4>Aldıktan Sonra&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                    <ul>
+                       <li>Siparişiniz onaylandıktan sonra satın aldığınız hediye kartı, istediğiniz kişinin e-posta adresine gönderilir.</li>
+                       <li><b>Hediye kartının görüntülenip kullanılabilmesi için gönderilen kişinin e-postası ile dr.com.tr’ye üye olması gerekmektedir.</b></li>
+                       <li>Gönderdiğiniz hediye kartını “Profilim” sayfasındaki “Hediye Kartlarım” bölümünden takip edebilirsiniz.</li>
+                       <li><b>Hediye kartı siparişleri iptal edilemez.</b></li>
+                    </ul>
+                </div>
+                <div class="three-col" style="margin-left: -20px;">
+                    <h4>&nbsp;&nbsp;&nbsp;&nbsp;Kullanırken</h4>
+                    <ul>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;Hediye kartı ile verilen siparişlerde, aynı anda &nbsp;&nbsp;&nbsp;&nbsp;birden çok hediye kartı kullanılamaz.</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;Hediye kartları tek kullanımlıktır, kalan tutar için &nbsp;&nbsp;&nbsp;&nbsp;yeni kart oluşturulamaz.</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;Hediye kartı ile sipariş verirken en az kart tutarı &nbsp;&nbsp;&nbsp;&nbsp;kadar sipariş oluşturmanızı ve kart tutarının &nbsp;&nbsp;&nbsp;&nbsp;tamamını &nbsp;&nbsp;&nbsp;&nbsp;tek siparişte kullanmanızı öneririz.</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;Fatura sadece hediye kartı kullanılırken, onu &nbsp;&nbsp;&nbsp;&nbsp;kullanan müşterimize gönderilir.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        

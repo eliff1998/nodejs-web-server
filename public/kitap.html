@@ -1,0 +1,446 @@
+<html>
+    <head>
+        <link href="kitap.css" type="text/css" rel="stylesheet"/>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <title>D&R-Kültür Sanat ve Eğlence Dünyası</title>
+    </head>
+
+    <body>
+       <!--Sayfa başlangıcı :logo,dropdownmenü,searcbar ,üyegirişi,sepetim -->
+        <ul>
+                <li><a href="d&r.html"><img src="C:\Users\eliff\OneDrive\Masaüstü\node-js-giris\express-generator\hello-express\public\images\foto/head-logo.png" height="70" ></a></li>
+                <!--Dropdown-->
+                <li class="dropdown">
+                  <a  class="dropbtn"><img src="foto/menü.PNG" height="70" ></a>
+                  <div class="dropdown-content">
+                        <div class="row">
+                                <div class="column">
+                                  
+                                  <a href="kitap.html"><img src="foto/Ekran Alıntısı.PNG" style="height: 200px;width: 175px;" ></a>
+                                  <a href="#"><img src="foto/Yeniçıkan.PNG"  style="height: 200px;width: 175px;"></a>
+                                  
+                                </div>
+                                <div class="column">
+                                 
+                                  <a href="#"><img src="foto/ekitap.PNG" style="height: 200px;width: 175px;" ></a>
+                                  <a href="#"><img src="foto/çoksatan.PNG" style="height: 200px; width: 175px;" ></a>
+                                 
+                                </div>
+                                <div class="column">
+                                  
+                                  <a href="film.html"><img src="foto/film.PNG" style="height: 200px;width: 175px;" ></a>
+                                  <a href="#"><img src="foto/hediyelik.PNG" style="height: 200px;width: 175px;" ></a>
+                                  
+                                </div>
+
+                                <div class="column">
+                                  
+                                        <a href="müzik.html"><img src="foto/Müzik.PNG" style="height: 200px;width: 175px;" ></a>
+                                        <a href="#"><img src="foto/spor.PNG" style="height: 200px;width: 175px;" ></a>
+                                        
+                                      </div>
+                                
+                                <div class="column">
+                                  
+                                            <a href="#"><img src="foto/elektronik.PNG" style="height: 200px;width: 175px;" ></a>
+                                            <a href="#"><img src="foto/hobi.PNG" style="height: 200px;width: 175px;" ></a>
+                                            
+                                    </div>     
+                                    
+                                    
+                                    <div class="column">
+                                  
+                                            <a href="#"><img src="foto/Oyunkonsol.PNG" style="height: 200px;width: 175px;" ></a>
+                                            <a href="#"><img src="foto/kampanya.PNG" style="height: 200px;width: 175px;" ></a>
+                                            
+                                          </div>
+                                          
+                                          
+                                          <div class="column">
+                                  
+                                                <a href="#"><img src="foto/kırtasiye.PNG" style="height: 200px;width: 175px;" ></a>
+                                                <a href="#"><img src="foto/mağaza.PNG" style="height: 200px;width: 175px;" ></a>
+                                                
+                                   </div>             
+                             </div>
+
+                  </div>
+                </li>
+                <!--Searchbar-->
+                <li class="searhbar" >
+                        <a class="icon" ><img src="foto/search icon.PNG" height="70" > </a>
+                    <div class ="searchinput">
+                        
+                       <a><input type="text" style="width: 500px; height: 70px" placeholder="HANGİ ÜRÜNÜ ARIYORSUN?" > </a>
+                       <a ><button class="btn default" style="height:70px ; width:90px " style="background-color: white; font-style:bolder;" >ARA</button> </a>
+                        
+                    </div>
+                </li>
+                <!--Üye girişi/sepetim-->
+                
+               <li style="float: right;" > <a href="" style="color:black; font:bold" >SEPETİM</a> </li>
+               <li style="float:right" > <a href="uyelik.html" style="color:grey; font: bold;" > ÜYE GİRİŞİ </a> </li>
+
+              </ul>
+              
+               
+                     
+               
+            <!--Anabaşlık-->
+    <div id="app2" >
+
+            <h1 style="text-align:center; color: black ; font: bold;">{{başlık}}</h1>
+    </div>
+
+     
+    <!--Slider-->
+     <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <a v-bind href="" title="" >
+              <div class="numbertext"></div>
+              <img src="foto\s1.png" style="width:100%  " height="300">
+            
+            </div>
+            
+            <div class="mySlides fade">
+                    <a v-bind href="" title="" >
+              <div class="numbertext"></div>
+              <img src="foto\s2.png" style="width:100%">
+             
+            </div>
+            
+            <div class="mySlides fade">
+                    <a v-bind href="" title="" >
+              <div class="numbertext"></div>
+              <img src="foto\s3.png" style="width:100%"  >
+            
+            </div>
+
+            <div class="mySlides fade">
+                    <a v-bind href="" title="" >
+              <div class="numbertext"></div>
+              <img src="foto\s4.png" style="width:100%">
+            
+            </div>
+
+            <div class="mySlides fade">
+                    <a v-bind href="" title="" >
+              <div class="numbertext"></div>
+              <img src="foto\s6.png" style="width:100%">
+            
+            </div>
+
+            <div class="mySlides fade">
+                    <a v-bind href="" title="" >
+              <div class="numbertext"></div>
+              <img src="foto\s7.png" style="width:100%">
+            
+            </div>
+
+            <div class="mySlides fade">
+                    <a v-bind href="" title="" >
+              <div class="numbertext"></div>
+              <img src="foto\s8.png" style="width:100%">
+            
+            </div>
+
+            <div class="mySlides fade">
+                    <a v-bind href="" title="" >
+              <div class="numbertext"></div>
+              <img src="foto\s9.png" style="width:100%">
+            
+            </div>
+
+            <div class="mySlides fade">
+                    <a v-bind href="" title="" >
+              <div class="numbertext"></div>
+              <img src="foto\s10.png" style="width:100%">
+            
+            </div>
+
+
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+    </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span> 
+              <span class="dot" onclick="currentSlide(6)"></span>
+              <span class="dot" onclick="currentSlide(7)"></span> 
+              <span class="dot" onclick="currentSlide(8)"></span> 
+              <span class="dot" onclick="currentSlide(9)"></span> 
+            </div>
+
+            <!--Kitap kategorilerinin bulunduğu sıralı butonlar-->
+
+        <button class="btn default">Kitap</button>
+        <button class="btn default">Edebiyat</button>
+        <button class="btn default">Çocuk ve Gençlik</button>
+        <button class="btn default">Eğitim Başvuru</button>
+        <button class="btn default">Araştırma-Tarih</button>
+        <button class="btn default">Din-Mitoloji</button>
+        <button class="btn default">Foreign Languages</button>
+        <button class="btn default">Ders/Sınav Kitapları</button>
+        <button class="btn default">Sanat-Tasarım</button>
+        <button class="btn default">Felsefe</button>
+        <button class="btn default">Çizgi-Roman</button>
+        <button class="btn default">Hobi</button>
+        <button class="btn default">Bilim</button>
+        
+
+           <div> <a href=""  style="text-align: center; color: #000;" ><h3>Tüm Kategorileri Göster </h3> ></a> </div>
+
+
+        <!--Reklam linki-->
+        <div class="container">
+                <div class="highlight" style=font-size:30px!important;color:#ffffff!important;background:#ff0000!important;> 
+                        <p><a href="https://www.dr.com.tr/harca-kazan" target="" style=color:#ffffff!important; style="font-size: small; text-align: center;" ><span>75 TL ve &#252;zeri alışverişinize 15 TL Hediye!</span></a>
+                            
+                        </p>
+        
+                </div>
+            </div>     
+             <!--Burada bazı kategorilerden bazı ürünler gösteriliyor.-->
+            <section class="shelf">
+                    <div class="container">
+
+                            <header>
+
+                                 <h2 style="text-align: center;">Çok Satanlar 
+                                 <a href="/kategori/Kitap"   style="color: grey;align-items: flex-end;font: bold;font-size: small; text-align: right;" >TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+        
+        
+                            </header>
+                                
+                            
+
+                    </div>
+                    <!--Ürünler-->
+                    <div class="row">
+                            <a href="" title="Aşkımız Eski Bir Roman" >
+                                <picture>
+                                    <img style="border-block: 2px;" src="foto\c1.png" alt="k2" width="200" >
+                                 </picture>
+                            </a>
+
+                            <a href="ürünkitap.html" title="Kalbimin Can Mayası" >
+                                    <picture>
+                                        <img style="border-block: 2px;" src="foto\c2.png" alt="c1" width="200" >
+                                     </picture>
+                                </a>
+                             <a href="" title="Bir Ömür Nasıl Yaşanır?" >
+                                    <picture>
+                                       <img style="border-block: 2px;" src="foto\c3.png" alt="c3" width="200" >
+                                     </picture>
+                                </a>    
+
+                             <a href="" title="Hayır Diyebilme Sanatı" >
+                                        <picture>
+                                            <img  style="border-block: 2px;" src="foto\c4.png" alt="c4" width="200" >
+                                         </picture>
+                                    </a>  
+                             <a href="" title="Kendine Hoşgeldin" >
+                                          <picture>
+                                              <img style="border-block: 2px;" src="foto\c5.png" alt="c5" width="200" >
+                                          </picture>
+                                        </a>  
+                            <a href="" title="Hayat Cesurlara Güzel" >
+                                         <picture>
+                                                <img  style="border-block: 2px;" src="foto\c6.png" alt="c6" width="200" >
+                                             </picture>
+                                          </a>                    
+
+
+                    </div>     
+                    
+                </section>
+
+                <section class="shelf">
+                        <div class="container">
+    
+                                <header>
+    
+                                     <h2 style="text-align: center;">En Yeniler 
+                                     <a href="/kategori/Kitap"   style="color: grey;align-items: flex-end;font: bold;font-size: small; text-align: right;" >TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+            
+            
+                                </header>
+                                    
+                                
+    
+                        </div>
+                        <div class="row">
+                                <a href="" title="Hafıza" >
+                                    <picture >
+                                        <img style="border-block: 2px;" src="foto\y1.png" alt="y1" width="200"  >
+                                     </picture>
+                                </a>
+    
+                                <a href="" title="Duman Olan Adam" >
+                                        <picture>
+                                            <img style="border-block: 2px;" src="foto\y2.png" alt="y2" width="200" >
+                                         </picture>
+                                    </a>
+                                 <a href="" title="İnsanlık Suçu" >
+                                        <picture>
+                                           <img style="border-block: 2px;" src="foto\y3.png" alt="y3" width="200" >
+                                         </picture>
+                                    </a>    
+    
+                                 <a href="" title="Gökyüzü Buluşması" >
+                                            <picture>
+                                                <img  style="border-block: 2px;" src="foto\y4.png" alt="y4" width="200" >
+                                             </picture>
+                                        </a>  
+                                 <a href="" title="Kaplumbağa Macerası" >
+                                              <picture>
+                                                  <img style="border-block: 2px;" src="foto\y5.png" alt="y5" width="200" >
+                                              </picture>
+                                            </a>  
+                                <a href="" title="Göç Edemeyen Leylek" >
+                                             <picture>
+                                                    <img  style="border-block: 2px;" src="foto\y6.png" alt="y6" width="200" >
+                                                 </picture>
+                                              </a>                    
+    
+    
+                        </div>     
+                        
+                    </section>
+                    <section class="shelf">
+                            <div class="container">
+        
+                                    <header>
+        
+                                         <h2 style="text-align: center;">Sizin İçin Seçtiklerimiz 
+                                        <a href="/kategori/Kitap"   style="color: grey;align-items: flex-end;font: bold;font-size: small; text-align: right;" >TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+                
+                
+                                    </header>
+                                        
+                                    
+        
+                            </div>
+                            <div class="row">
+                                    <a href="" title="Uygarlıkların Batışı" >
+                                        <picture>
+                                            <img style="border-block: 2px;" src="foto\a1.png" alt="a1" width="200" >
+                                         </picture>
+                                    </a>
+        
+                                    <a href="" title="Kalbimin Can Mayası" >
+                                            <picture>
+                                                <img style="border-block: 2px;" src="foto\a2.png" alt="a2" width="200" >
+                                             </picture>
+                                        </a>
+                                     <a href="" title="Portekize Yolculuk" >
+                                            <picture>
+                                               <img style="border-block: 2px;" src="foto\a3.png" alt="a3" width="200" >
+                                             </picture>
+                                        </a>    
+        
+                                     <a href="" title="Mutlu Olmak İstiyorum" >
+                                                <picture>
+                                                    <img  style="border-block: 2px;" src="foto\a4.png" alt="a4" width="200" >
+                                                 </picture>
+                                            </a>  
+                                     <a href="" title="Her Umut Ortak Akar" >
+                                                  <picture>
+                                                      <img style="border-block: 2px;" src="foto\a5.png" alt="a5" width="200" >
+                                                  </picture>
+                                                </a>  
+                                    <a href="" title="Gelirken Ekmek Al" >
+                                                 <picture>
+                                                        <img  style="border-block: 2px;" src="foto\a6.png" alt="a6" width="200" >
+                                                     </picture>
+                                                  </a>                    
+        
+        
+                            </div>     
+                            
+                        </section>
+                        <!--Alt fotoğraflar-->
+                        <div id=app3>
+                                <a v-bind:href="link1"  title="Ölmeden Önce Okumanız Gereken Kitaplar" >
+                                    <picture>  <img style="border-bottom: 5;" src="foto\a.png" alt="a" width="450" > </picture> </a>
+                           <a v-bind:href="link2" title="10 TL Altı Kitaplar">
+                                   <picture>  <img style="border-bottom: 5;" src="foto\b.png" alt="b" width="450" > </picture> </a>  
+                            <a v-bind:href="link3" title="Ödüllü Kitaplar">
+                                  <picture>  <img style="border-bottom: 5;" src="foto\c.png" alt="c" width="450" > </picture> </a> 
+                          </div>      
+                          
+                              <!--Footer-->
+                            
+                              <div id="buton">
+                                <button style="position: fixed;left:0;bottom: 0; background: #e31e24;
+                                color: #fff;
+                                border-color: #e31e24;
+                            
+                                font-family: Open Sans, sans-serif;
+                                font-size: 14px;
+                                padding: 10px 20px;
+                                border: solid 1px #ebebeb;
+                                border-radius: 25px;
+                                box-sizing: border-box;
+                                text-decoration: none !important;
+                                text-align: center;
+                                display: inline-block;
+                                margin: 10px;"  v-on:click="show = !show">
+                                  Footer         </button>
+                                <transition name="fade">
+                                  <p v-if="show">   <footer >
+                                    <div class="container" style="width:1500;">
+                                        <nav class="footerNav" style="background:whitesmoke; height: 300px;">
+                                                <div style="text-align: center;" id="menu" class="altmenu">
+                                                        <a href="" >D&R Hakkında</a>
+                                                        <a href="">D&R Kart</a>
+                                                        <a href="">Yardım/SSS</a>
+                                                        <a href="">Kampanyalar</a>
+                                                        <a href="">D&R Mağazalar</a>
+                                                        <a href="">Mobil Uygulamalar</a>
+                                                        <a href="">İşlem Rehberi</a>
+                                                        <a href="">Kırtasiye</a>
+                                                        <a href="">Sanal Hediye Kartı</a>
+                                                        <a href="">İletişim</a>
+                                                        <a href="">Mağaza Etkinlikleri</a>
+                                                        <a href="">Kitap Fuarı</a>
+                                                </div>
+                                
+                                                
+                                        
+                                        <div class="channels" style="background:#f2f2f2; width: 1500px">
+                                            <ul class="social" style="background:#f2f2f2">
+                                                <li class="fb"><a href="http://www.facebook.com/DRdunyasi" target="_blank"><i class="icon-facebook" ></i><img src="foto\facebook.png" alt="facebook"/></i></a></li>
+                                                <li class="twitter"><a href="http://twitter.com/DRDunyasi" target="_blank"><i class="icon-twitter"><img src="foto\twitter.png" alt="twitter"/></i></a></li>
+                                                <li class="instagram"><a href="http://instagram.com/dr_dunyasi" target="_blank"><i class="icon-instagram-yeni"><img src="foto\instagram.png" alt="instagram"/></i></a></li>
+                                                <li class="android"><a href="http://www.dr.com.tr/Common/PageContent/DR_MobilUygulamalar"><img class="lazyload" img src="foto\google-play.png" alt="Google Play"/></a></li>
+                                                <li class="android"><a href="http://www.dr.com.tr/Common/PageContent/DR_MobilUygulamalar"><img class="lazyload" img src="foto\app-store.png" alt="App Store"/></a></li>
+                                            </ul>
+                                
+                                        </div>
+                                        </nav>
+                                    </div>
+                                  
+                                </footer> </p>
+                                </transition>
+                              </div>
+             
+                   
+                                                 
+
+
+
+                    
+                
+
+<script src="kitap.js" > </script>
+
+</body>

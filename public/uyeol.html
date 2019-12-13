@@ -1,0 +1,391 @@
+<html>
+    <head>
+            <link href="uyeol.css" type="text/css" rel="stylesheet"/>
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <title>D&R-Kültür Sanat ve Eğlence Dünyası</title>
+    </head>
+    
+
+
+
+<body>
+    <!--Sayfa başlangıcı :logo,dropdownmenü,searcbar ,üyegirişi,sepetim -->
+        <ul>
+            <!--logo-->
+                <li><a href="d&r.html"><img src="foto/head-logo.png" height="70" ></a></li>
+                <!--dropdown menü-->
+                <li class="dropdown">
+                  <a  class="dropbtn"><img src="foto/menü.PNG" height="70" ></a>
+                  <div class="dropdown-content">
+                        <div class="row">
+                                <div class="column">
+                                  
+                                  <a href="kitap.html"><img src="foto/Ekran Alıntısı.PNG" style="height: 200px;width: 175px;" ></a>
+                                  <a href="#"><img src="foto/Yeniçıkan.PNG"  style="height: 200px;width: 175px;"></a>
+                                  
+                                </div>
+                                <div class="column">
+                                 
+                                  <a href="#"><img src="foto/ekitap.PNG" style="height: 200px;width: 175px;" ></a>
+                                  <a href="#"><img src="foto/çoksatan.PNG" style="height: 200px; width: 175px;" ></a>
+                                 
+                                </div>
+                                <div class="column">
+                                  
+                                  <a href="#"><img src="foto/film.PNG" style="height: 200px;width: 175px;" ></a>
+                                  <a href="#"><img src="foto/hediyelik.PNG" style="height: 200px;width: 175px;" ></a>
+                                  
+                                </div>
+
+                                <div class="column">
+                                  
+                                        <a href="#"><img src="foto/Müzik.PNG" style="height: 200px;width: 175px;" ></a>
+                                        <a href="#"><img src="foto/spor.PNG" style="height: 200px;width: 175px;" ></a>
+                                        
+                                      </div>
+                                
+                                <div class="column">
+                                  
+                                            <a href="#"><img src="foto/elektronik.PNG" style="height: 200px;width: 175px;" ></a>
+                                            <a href="#"><img src="foto/hobi.PNG" style="height: 200px;width: 175px;" ></a>
+                                            
+                                    </div>     
+                                    
+                                    
+                                    <div class="column">
+                                  
+                                            <a href="#"><img src="foto/Oyunkonsol.PNG" style="height: 200px;width: 175px;" ></a>
+                                            <a href="#"><img src="foto/kampanya.PNG" style="height: 200px;width: 175px;" ></a>
+                                            
+                                          </div>
+                                          
+                                          
+                                          <div class="column">
+                                  
+                                                <a href="#"><img src="foto/kırtasiye.PNG" style="height: 200px;width: 175px;" ></a>
+                                                <a href="#"><img src="foto/mağaza.PNG" style="height: 200px;width: 175px;" ></a>
+                                                
+                                   </div>             
+                             </div>
+
+                  </div>
+                </li>
+                <!--Searchbar-->
+                <li class="searhbar" >
+                        <a class="icon" ><img src="foto/search icon.PNG" height="70" > </a>
+                    <div class ="searchinput">
+                        
+                       <a><input type="text" style="width: 500px; height: 70px" placeholder="HANGİ ÜRÜNÜ ARIYORSUN?" > </a>
+                       <a ><button class="btn default" style="height:70px ; width:90px " style="background-color: white; font-style:bolder;" >ARA</button> </a>
+                        
+                    </div>
+                </li>
+               <li style="float: right;" > <a href="" style="color:black; font:bold" >SEPETİM</a> </li>
+               <li style="float:right" > <a href="uyelik.html" style="color:grey; font: bold;" > ÜYE GİRİŞİ </a> </li>
+
+              </ul>
+              
+
+
+
+<!--Üye Olmak İsiyorum formu ve D&R reklamı--> 
+<div id="register-page">
+    <div class="container">
+        <!--Üye Olmak İsiyorum-->
+         <div class="register-form">
+        <div class="full buttons">
+            <div class="login-btn"></div>Zaten Üyeyim! <a  href="uyelik.html" >Giriş Yap</a>
+            
+             <h5 style="text-align: center;" >veya</h5>
+        </div>
+        <div class="full">
+            
+                <div>  <label>Ad*</label> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                     <label>Soyad *</label>
+                  
+                
+                </div> 
+                <input type="text" id="name" length="10" name="name" title="Lütfen Adınızı Giriniz" class="form-control" />
+                <input type="text" id="surNameField" length="10" name="surNameField" title="Lütfen Soyadnızı Giriniz." class="form-control" /> 
+             </div> 
+                 
+      
+        <div class="full">
+
+                <div>  
+                    
+                    <label>E-posta*</label> 
+                </div>
+                <div>
+                   <a> <input type="text" id="e-mail" title="Lütfen e-posta adresinizi giriniz"  name="e-mail" class="form-control" style="width: 320px;"/> </a>  
+                    
+                </div>  
+            
+             <div >
+               
+                  <label>E-posta*(Tekrar)</label>    </div>
+                <div>  
+               <a> <input type="text" id="e-mailcheck" title="Lütfen tekrardan e-posta adresinizi giriniz" maxlength="500" name="e-mailcheck" class="form-control" style="width:320px; "   /> </a> 
+            </div>
+            
+        </div>
+
+        
+        <div class="full">
+            <div >
+                    
+              <label style="font:bold;" >Parola *</label>  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                <label >Parola Tekrar *</label>
+                    
+        
+            </div>
+            <div >
+                
+            <input type="password" id="password" name="password" maxlength="40" title="En Az 8 karakter olmalıdır" class="form-control" />   
+             <input type="password" id="password" name="password" maxlength="40" title="En Az 8 karakter olmalıdır" class="form-control" />              
+            </div>
+
+        </div>
+        <div class="full contract">
+            <div class="form-row">
+                <p>
+                    <input type="checkbox" id="eBultenCheck" name="eBultenCheck" class="ncFormCheckboxDiv" title="Güncel gelişmelerden kolayca haberdar olmak için e-bültenimize üye olun." />
+                    Turkuvaz Müzik Kitap Mağazacılık Pazarlama A.Ş tarafıma ticari elektronik ileti göndermesi için <a href="#popup3" class="fancybox" data-fancybox-type="ajax">burada</a> da belirtilenlere iznim vardır.
+                    <!--Popup-->
+                    <div id="popup3" class="overlay">
+                            <div class="popup">
+                                <p>TİCARİ ELEKTRONİK İLETİ VE DİĞER HUSUSLAR İÇİN İZNİNİZ</p>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                        TİCARİ ELEKTRONİK İLETİ
+
+                                        www. dr.com.tr sitenize üyelik/alışveriş işlemleri sırasında verdiğim ve bilahare muhtelifi suretler ile vereceğim iletişim adreslerime (cep telefonu, mail adresim ve diğerlerine) gerek her türlü üyelik/alışveriş işlemleri ve uygulamaları ile akdi-kanuni hususlardan bilgilendirilmem, gerek çeşitli ürün-hizmetlerin ve genel/özel imkanların duyurulması, tanıtım ve reklamının yapılması için Şirketiniz Turkuvaz Müzik Kitap Mağ. Paz. AŞ. ile tarafıma ilgili kanunlara uygun olarak ticari elektronik iletiler ve diğer iletiler gönderileceği, iletişim adres bilgilerimin (isim, cep telefonu, mail adresi vd) bu amaçlar ile alındığı-alınacağı, gizliliklerinin korunması için luzumlu tedbirler alınarak ve işlenmesine dair kanuni ilkelere uygun şekilde yukarıda belirtilenler ve ortakları-iş ortakları, tedarikçileri, servis sağlayıcıları, halefleri ve sosyal medya ile online reklam ağları işletmeleri de dahil olmak üzere belirleyecekleri (yurt içindeki-dışındaki) üçüncü kişiler tarafından yasal azami süre aşılmamak üzere öngörülecek süre için yurt içinde ve dışında fiziki-manyetik ortamlarda kaydedilip saklanacağı, kullanılacağı, güncelleneceği, sınıflandırılacağı, aktarılacağı-paylaşılacağı ve otomatik olan/olmayan yöntemler ile temin olunarak kanunlarda belirtilen diğer suretlerle işleneceği, ayrıca, bu kişisel bilgilerimin işlenip işlenmediği, işlenmişse yapılan işlemler, amaca uygun kullanılıp kullanılmadığı, aktarıldığı üçüncü kişiler, eksik veya yanlış işlenmiş olması halinde düzeltilmesi, silinmesi veya yok edilmesi, yapılan işlemin ilgili üçüncü kişilere bildirilmesi, bilgilerimin otomatik sistemler ile analiz edilmesi sureti ile aleyhime bir sonucun ortaya çıkmasına itiraz ve verilerin kanuna aykırı olarak işlenmesi sebebi ile zarara uğramam halinde giderilmesi gibi konularda bilgi almak ve taleplerde bulunmak üzere Sitenizde belirtilen iletişim kanallarından Veri Sorumlusu Şirketiniz Turkuvaz Müzik Kitap Mağ. Paz. AŞ.'ye ilgili kanuna uygun olarak başvurabileceğim ve Şirketinizce kanunen uygun işlemin yapılacağı, öte yandan, (üyeliğim varsa) istediğim her zaman Sitenizindeki üyelik sayfasında iletişim tercihlerimi değiştirebileceğim (bilahare iletişimi açtığımda, varsa önceki red bildirimim dikkate alınmaksızın ve ayrıca bir işleme gerek olmaksızın aynı kanaldan devam edeceği) veya hiçbir gerekçe göstermeksizin tarafıma gelen SMS/e-mail mesajlarında belirtilen işlemi (red) yaparak iletişimi durdurabileceğim (kanunlar gereği mümkün/gerekli iletişimlerin her durumda devam edeceği) ve diğer tüm ilgili hususlarda buradaki açıklamalar ve/veya sözleşmem ile bilgilenmiş/bilgilendirilmiş olarak ve iletişim bilgilerim de dahil sözleşmedeki her türlü kişisel verilerime ilişkin bütün izinlerim-haklarım herhalükarda ve ayrıca geçerli kalmak üzere;her türlü ürün ve hizmetlere ilişkin çeşitli bilgilendirme, tanıtım, reklam, promosyon, satış ve pazarlama amacıyla, keza, mağaza kartı, kredi kartı ve üyelik-alışveriş bilgilendirmeleri, işlem ve uygulamaları için Şirketiniz Turkuvaz Müzik Kitap Mağ. Paz. AŞ. kanunlara uygun şekilde SMS/kısa mesaj, anlık bildirim, otomatik arama, telefonla arama, bilgisayar, telefon, internet, sosyal medya ile online reklam ağları, bluetooth-beacon dahil kablosuz bağlantılar, faks, e-posta/mail ve diğer elektronik iletişim araçları-kanalları ile tarafıma ticari elektronik iletiler ve diğer iletiler gönderilmesine onayım vardır.
+
+                                </div>
+                            </div>
+                    </div>
+                     
+                </p>
+                <p>
+                    <input type="checkbox" id="contractCheck" name="contractCheck" class="ncFormCheckboxDiv" title="Üyelik Sözleşmesi'ni okudum, onaylıyorum." />
+
+                    <!--popup-->
+                    <label><a href="#popup4"  data-fancybox-type="ajax" class="contractLink fancybox" id="contractLink1" title="Üyelik Sözleşmesi"><strong>Üyelik Sözleşmesi</strong></a>'ni okudum, onaylıyorum.</label>
+                    <div id="popup4" class="overlay">
+                        <div class="popup">
+                            <p>Üyelik Sözleşmesi</p>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                    1-TARAFLAR
+
+                                    İş bu Üyelik Sözleşme’si bir tarafta Trump Towers Kule 2, Kuştepe Mahallesi Mecidiyeköy Yolu Caddesi No: 12 Kat: 30-31-32 34387 Şişli - İstanbul adresinde faaliyet gösteren, 6563 sy. Elektronik Ticaretin Düzenlemesi Hakkında Kanun uyarınca bir hizmet sağlayıcı olan TURKUVAZ MÜZİK KİTAP MAĞAZACILIK VE PAZARLAMA A.Ş. (bundan sonra kısaca “dr.com.tr” olarak anılacaktır)
+                                    ile
+                                    
+                                    “Üye” veya “Ziyaretçi” olarak alan adlı web sitesi veya mobil uygulama ya da ’ye ait diğer platformları kullanan “Kullanıcı” arasında akdedilmiştir (Sözleşme içerisinde Kullanıcı terimi Ziyaretçi veya Üye ayrımı olmaksızın tüm kullanıcıları, Üye ise sadece kayıtlı olan kullanıcıları kapsayacak şekilde kullanılmıştır).
+                                    
+                                    Sözleşmede ve Kullanıcı ya da Üye ayrı ayrı Taraf ve birlikte Taraflar olarak anılacaktır.
+                                    
+                                    
+                                    2-SÖZLEŞMENİN AMACI
+                                    
+                                    dr.com.tr’nin sahibi olduğu dr.com.tr alan adlı internet sitesinde (bundan böyle kısaca "dr.com.tr" olarak anılacaktır) ve/veya Apple Store, Google Store ve benzeri mobil uygulama mağazalarındaki dr.com.tr tarafından sunulan dr.com.tr mobil uygulamaları üzerinden Kullanıcıya sunacağı ürün ve hizmetlerin hangi şartlarda sunulacağını belirler.
+                                    
+                                    dr.com.tr Kullanıcılarına ürün tedariği ve hizmet sağlayan bir elektronik ticaret servisidir. Bu hizmetler dr.com.tr alan adı üzerinde yayın yapan internet sitesi üzerinden veya dr.com.tr mobil uygulamaları üzerinden sunulan Platform (internet sitesi ve mobil uygulamaların hepsi birlikte Platform olarak kullanılacaktır) üzerinden sağlanmaktadır.
+                                    
+                                    Platformun kullanılması Kullanıcı tarafından işbu üyelik sözleşmesinin okunduğunu ve kabul edildiğini gösterir. Bu nedenle işbu üyelik sözleşmesi dr.com.tr alan adlı internet sitesindeki veya dr.com.tr mobil uygulaması hizmetlerinden faydalanan tüm üyeler, kullanıcılar ve ziyaretçiler için bağlayıcıdır. Bu internet sitesini kullananlar, ister ziyaretçi (ziyaretçi: üye olmayan ama dr.com.tr servislerinden sınırlı biçimde yararlananlar), ister üye (üye: dr.com.tr'ye kişisel bilgilerini vermek suretiyle kayıt olan kullanıcılar) olsunlar bu sözleşme hükümlerince hareket etmeyi taahhüt etmiş demektir. Sözleşme metninde geçen "kullanıcı" kelimesi, "üye"yi ve "ziyaretçi"leri de içerir.
+                                    
+                                    
+                                    3-KULLANICI'NIN YÜKÜMLÜLÜKLERİ
+                                    
+                                    1- Kullanıcı, işbu sözleşmenin tamamını okuduğunu, içeriğini tamamen anladığını ve sözleşmede belirtilen ve www.dr.com.tr alan adlı internet sitesinde veya dr.com.tr mobil uygulamalarında (her bir mobil uygulama, ilgili uygulama mağazası kuralları gereği istisnai olarak değişik hüküm ve koşullar içerebilir) yer alan tüm hususları kayıtsız ve şartsız olarak kabul ettiğini ve onayladığını kabul ederek, belirtilen bu hususlar ile ilgili olarak herhangi bir itiraz ve defi ileri sürmeyeceğini şimdiden beyan ve taahhüt etmektedir.
+                                    
+                                    2- Kullanıcı, dr.com.tr tarafından Platformlarda sunulan hizmeti hiçbir şekilde kamu düzenini bozucu, genel ahlaka aykırı, başkalarını rahatsız ve taciz edecek şekilde, yasalara aykırı bir amaç için, başkalarının fikri veya sınai haklarına (telif, marka veya patent, vs.) tecavüz edecek şekilde kullanamaz. Ayrıca başkalarının dr.com.tr veya uygulamalar üzerinden verilen hizmetleri kullanmasını önleyici veya zorlaştırıcı faaliyet ve işlerde bulunamaz. Kullanıcı, yukarıda belirtilen kısıtlamalara uymayı şimdiden kabul ve taahhüt eder.
+                                    
+                                    3- Üye, dr.com.tr tarafından kendisine verilmiş olan ya da kendisinin belirlediği şifreyi başka kişi ya da kuruluşlara veremez. Kullanıcı'nın ve/veya Üye'nin işbu sözleşme ile sahip olduğu kullanım hakları sadece kendisine aittir, başkalarına devredilemez. Kullanıcı adı ve/veya şifrenin başka kişiler tarafından kullanılmasından üye sorumlu olup, dr.com.tr’yi bu nedenle herhangi bir şekilde sorumlu tutamaz.
+                                    
+                                    4- Kullanıcı ve/veya Üye, dr.com.tr’ye üye olurken belirlediği kullanıcı adı ve şifrenin güvenliğini sağlamanın kendi sorumluluğu altında olduğunu, gereken önlemleri almayı, diğer üyelerin üyelik hesaplarını, kullanıcı adlarını, şifrelerini kullanmamayı, verilerine izinsiz olarak ulaşmamayı ve kendilerine ait şifreleri başkalarıyla paylaşmamayı, aksi halde bundan doğacak hukuki ve cezai sorumlukların kendisine ait olacağını; üye hesaplarının yetkisi olmayanlar tarafından kullanıldığını veya şifrelerinin başkalarının eline geçtiğini öğrendiklerinde bu durumu derhal dr.com.tr’ye bildirmeyi; dr.com.tr’nin üyelerin şifrelerinin, üyelik hesaplarının, kullanıcı adlarının üçüncü şahıslar tarafından ele geçirilmesinden sorumlu tutulamayacağını kabul ve taahhüt eder.
+                                    
+                                    5- Kullanıcı, dr.com.tr Platform’ları üzerinden verilen hizmetlerden faydalanan diğer kullanıcılarının yazılımlarına, kişisel verilerine, veya diğer bilgilerine izinsiz olarak ulaşmamayı ve/veya bunları kullanmamayı, üçüncü kişi ve kuruluşların kullanımına sunmamayı kabul eder.
+                                    
+                                    6- Kullanıcı, kanunen yasak bilgiler içeren mesajlar, zincir posta, virüs, solucan vs. gibi zararlı yazılımlar ile üçüncü şahıslara zarar verebilecek başkaca her hangi bir içeriği dağıtmayacağını; diğer kullanıcıların bilgisayarındaki bilgilere ya da yazılıma zarar verecek program ve/ya bilgiler göndermemeyi veya bir yöntem kullanmamayı kabul, beyan ve taahhüt eder.
+                                    
+                                    7- Kullanıcı, dr.com.tr Platformlarından sunulan hizmetlerden faydalandığı sürece Fikir ve Sanat Eserleri Yasası, Sınai Mülkiyet Kanunu, Türk Ticaret Kanunu, Türk Ceza Kanunu, Türk Borçlar Kanunu ve diğer mevzuat hükümleri ile dr.com.tr tarafından yayınlanan bildirimlere riayet etmeyi ve bunları ihlal etmemeyi kabul, beyan ve taahhüt eder.
+                                    
+                                    8- D&R’a ait web sitesi, mobil uygulama ve diğer her türlü Platform’daki dr.com.tr logosu ile Platform’ların, içeriği ve yazılımların her türlü fikri ve mali hakkı dr.com.tr’ye aittir. Kullanıcı, Platformlarından birisinin veya tümünün içindekileri izlemek ve/veya kopyalamak, çoğaltmak, değiştirmek amacıyla ya da izin ve yetki verilmeyen başka amaçlarla herhangi bir yöntem kullanmayacağını; bu içerikten türev eserler yaratmayacağını ya da bunları kamuya teşhir etmeyeceğini kabul, beyan ve taahhüt eder.
+                                    
+                                    9- Kullanıcı, dr.com.tr’nin Platform’lar aracılığıyla kullanıcılar tarafından sağlanan grafik, yazı, resim, görsel, metin ve benzeri içeriklere yer verebileceğini bildiğini ve bu nedenle diğer Kullanıcılar tarafından sağlanan her türlü içerikten içeriği yayınlayan Kullanıcının sorumlu olduğunu ve dr.com.tr’nin hiçbir şekilde sorumlu olmadığını ve kendisi tarafından bir içerik yayınlanması durumunda, bu içeriğin D&R’ın yayın ilkelerine ve yasalara aykırı olması veya dr.com.tr tarafından bu şekilde değerlendirilmesi durumunda ilgili içeriği yayından kaldırma hakkına sahip olduğunu, Kullanıcı olarak içeriğin kaldırılmasına itiraz hakkının bulunmadığını kabul, beyan ve taahhüt eder.
+                                    
+                                    10- Kullanıcı, kendisi ile ilgili vereceği bilgilerin doğru olduğunu, verdiği bilgilerin değişmesi durumunda ilk fırsatta ve kanunen bir süre öngörüşmüş ise süresi içerisinde bu bilgileri güncelleyeceğini, kendisi tarafından yayınlanacak tüm görüş, düşünce, ifade ve resimlerin dr.com.tr ile hiçbir ilgi ve bağlantısı olmadığını ve bunların sadece kendisini bağlayacağını beyan, kabul ve garanti eder.
+                                    
+                                    11- Kullanıcı, dr.com.tr Platformlarını ticari tanıtım alanı olarak kullanamaz, Platformlar aracılığıyla ürün veya hizmet tanıtımı ya da satışı yapma veya diğer kullanıcıları satış kanallarına yönlendirme girişiminde bulunamaz. dr.com.tr, kendi takdirine göre, dr.com.tr Platformlarını bu amaçlarla kullandığını tespit ettiği üyelerin üyeliklerine son verme ve/veya sayfalarını yayından kaldırma hakkına sahiptir.
+                                    
+                                    12- Üye, üyelikten ayrılmaları veya Üyeliğin dr.com.tr tarafından sonlandırılması durumunda dr.com.tr'den herhangi bir hak talep edemez.
+                                    
+                                    13- Kullanıcı, ister üye olsun isterse de sadece ziyaretçi olsun, işbu maddedeki herhangi bir yükümlülüğünü ihlal etmesi nedeniyle;
+                                    
+                                    Kendisinin bir zarara uğraması durumunda, bu zararı dr.com.tr’den talep etme hakkı bulunmadığını, bu amaçla dr.com.tr’ye herhangi bir dava veya talep yönlendirmeyeceğini,
+                                    İhlali nedeniyle üçüncü bir kişinin zarara uğraması durumunda bu zararı ilk talep anında ve derhal gidereceğini, gidermediği takdirde dr.com.tr’nin zararı ödediği tarihten itibaren tüm yasal faizleri ve diğer ferileri ile birlikte kendisine rücu edeceğini bildiğini,
+                                    İhlal nedeniyle dr.com.tr’nin adli veya idari para cezası ödemesine neden olduğu takdirde, dr.com.tr’nin bu miktarı fiili ödeme tarihinden itibaren tüm yasal faizleri ve diğer ferileri ile birlikte kendisine rücu edeceğini bildiğini,
+                                    İhlali nedeniyle dr.com.tr’nin doğrudan bir zarara uğraması durumunda, zararın oluştuğu tarihten itibaren ilgili zararı tüm yasal faiz ve ferileri ile birlikte dr.com.tr’ye ödeyeceğini, kabul, beyan ve taahhüt eder.
+                                    
+                                    4-DR.COM.TR'NİN YETKİLERİ
+                                    
+                                    1- dr.com.tr her zaman için tek taraflı olarak kullanıcıya ve/veya üyeye verilen hizmeti sürekli veya geçici durdurabileceği gibi herhangi bir sayfasındaki ya da hizmetindeki kullanıcı erişimini neden belirtmeksizin ve uyarmaksızın, erteleme, sınırlama ve yok etme hakkına sahiptir. Kullanıcı bu nedenle dr.com.tr’yi herhangi bir ad altında sorumlu tutamaz.
+                                    
+                                    2- dr.com.tr, Üyelik bilgilerini eksik veya hatalı bildiren Üyeler ile işbu üyelik sözleşmesi ile ilgili Platform’da açıklanan sair kullanım koşullarına aykırı davranan Üyelerin, hiçbir açıklama yapmaksızın üyeliklerini sonlandırma veya dondurma hakkına sahiptir. Ayrıca dr.com.tr, belirli zaman dilimi boyunca güncellenmediğini tespit ettiği üyelerin hesaplarını da hiçbir açıklama yapmaksızın sonlandırma veya dondurma hakkına sahiptir.
+                                    
+                                    3- dr.com.tr, dr.com.tr alan adı altında yayın yapan internet sitesi veya mobil uygulamalar ile diğer Platformlardan verdiği hizmetlerin kesintisiz veya hatasız olacağını ya da sitenin veya mobil uygulamaların içeriğinin kullanılmasıyla ya da siteye bağlantı yapılmasıyla belirli sonuçların elde edileceğini garanti etmemektedir. dr.com.tr, kullanıcıların ve üyelerin, dr.com.tr alan adı altında yayın yapan internet sitesinden veya mobil uygulamalar ya da Platformlar üzerinden sunduğu hizmet ile ilgili her türlü güvenlik önlemini almış olsa da, bilişim sistemlerinin doğası gereği, Kullanıcılar tarafından Platformlardan yüklenen herhangi bir uygulama veya dosya ya da benzeri bir içerik nedeniyle kullanıcının sisteminin zarar görmeyeceğini garanti etmemektedir. dr.com.tr, doğrudan, dolaylı veya arızi zararlar, netice kabilinden doğan zararlar ve cezai tazminatlar da dahil olmak üzere, dr.com.tr’nin veya mobil uygulamaların ya da diğer Platformların kullanılmasından kaynaklanabilecek zararlar için sorumlu tutulamaz.
+                                    
+                                    4- dr.com.tr, Kullanıcılardan gelen içeriği, e-postayı ya da sayfalarında bulunan herhangi bir iletiyi neden göstermeden reddetme, geciktirme, geç yayına alma, yayınlamama veya yayından kaldırma hakkına sahiptir.
+                                    
+                                    5- dr.com.tr’ye ait platformlarda reklam ve tanıtım faaliyetleri yapma hakkı sadece dr.com.tr’ye veya dr.com.tr’nin yetki verdiği üçüncü kişilere aittir.
+                                    
+                                    6- dr.com.tr, dr.com.tr alan adı altındaki internet sitesinde, mobil uygulamalarda veya diğer Platform’larda kendi markası olan ve/ya olmayan diğer sitelere link verebilir. dr.com.tr’nin , link verdiği ya da tavsiye ettiği sitelerin, içerikleri zaman içerisinde değişebileceği de gözetildiğinde, dış sitelere verilen bağlantılar veya dış siteler ile ilgili yapılan tavsiyeler nedeniyle bu sitelere gerçekleşecek ziyaretlerde, kullanıcıların bilgi kullanımı, ilgili sitelerin gizlilik ilkeleri ve içeriğinden tamamen dış site sorumlu olup, dr.com.tr sorumlu değildir.
+                                    
+                                    7- dr.com.tr Platformlarındaki kullanıcı isimlerinin, e-postalarının ve diğer kişisel verilerin izinsiz ve yetkisiz kişiler tarafından herhangi bir nedenle toplanması ilgili mevzuat gereği suç teşkil etmektedir.
+                                    
+                                    8- dr.com.tr Platformlarından yapılan yayınların içeriği 18 yaş altındaki çocuklar için uygun olmayabilir. dr.com.tr bilerek 18 yaş altındaki çocuklardan bilgi talep etmez. Eğer herhangi bir şekilde 18 yaşın altındaki bir kullanıcının dr.com.tr ile kişisel bilgi paylaştığını fark edersek, bu bilgileri dr.com.tr sistemlerinden sileriz. Eğer bir ebeveyn çocuğunun dr.com.tr Platformlarında kendi rızası olmadan kişisel bilgilerini paylaştığını fark eder ise bu kişisel bilgileri Bizimle iletişime geçerek silinmesini talep edebilir. Yasal nedenlerle oluşacak kayıtlar haricinde kayıtlar sistemlerden derhal silinir.
+                                    
+                                    9- dr.com.tr teknik nedenlerden kaynaklanan fiyat, ürün ve her türlü güncelleme hatalarından sorumlu olmayıp, dilediği zaman dr.com.tr Platformlarında yer alan ve ilan edilen fiyatları güncelleyebilir, değiştirebilir.
+                                    
+                                    
+                                    5-GİZLİLİK VE KİŞİSEL VERİLERİN İŞLENMESİ
+                                    
+                                    dr.com.tr Platformlarını kullanmanız ve sadece kullanıcı olarak kalmanız veya üyeliğinizi tamamlayarak Üye olmanız halinde (“Üye”) aşağıdaki şart ve koşulları kabul, beyan ve taahhüt etmektesiniz.
+                                    
+                                    Platformlarımızın amacı Kullanıcılara özel reklam, kampanya ve diğer faydaların sunulmasıdır. Bu nedenle Platformlarımızda ait tüm kanallardan gerçekleştireceğiniz alışverişlerde kişiye özel sunduğumuz hizmetlerden ve avantajlardan faydalanabilirsiniz veya bilgilerinizin paylaşmasını istemediğiniz takdirde Platformlarımızı sınırlı özelliklerle kullanarak buna izin vermeyebilirsiniz.
+                                    
+                                    Eğer sadece ziyaretçi olarak kalır ve sayfalarımızı üye olmadan ziyaret ederseniz, sizinle ilgili yasal zorunluluklar haricinde bir bilgi toplamayız.
+                                    
+                                    Eğer, çerezlere (cookie) izin verirseniz (bu izinler sizin bilgisayarınızda/mobil cihazınızda kullandığınız tarayıcı programındaki ayarlarda sizin tarafınızdan yönetilebilmektedir) sizinle ilgili bazı ek bilgilere erişmemiz söz konusu olur.
+                                    
+                                    Eğer, ayrıca bize Üye olursanız, Size eksiksiz şekilde hizmet sunmaya çalışabiliriz. Üye’liğinizi kayıt altına almak ve sizi diğer Üyelerden ayırmak adına; isim, soy isim, doğum tarihi, medeni durum, yaşanılan şehir ve semt, eğitim durumu, cinsiyet ve sizinle iletişim kurmak için; cep ve iş telefon numaraları ve elektronik posta bilgileriniz veya üyesi olduğunuz sosyal medya platformu üzerinden sağlanan bilgileriniz tarafımızdan toplanabilir. Hizmetlerimiz kapsamında elektronik cihazlar üzerinden alınan konum verileri de işlenebilir. İlerleyen dönemlerde Üye’lere olan faydalarını artırmak amacıyla, ilgi alanları, aile ile ilgili bilgiler gibi ek bilgileriniz de alınabilecektir.
+                                    
+                                    Üye olmak için doldurduğunuz formda yer alan kişisel verileriniz; siparişlerinizi almak, ürün ve hizmetlerimizi sunmak, ödemelerinizi gerçekleştirmek, siparişleriniz, ürünler ve hizmetler hakkında pazarlama amacıyla sizinle irtibata geçmek, ilginizi çekebilecek ürün ve hizmetleri önermek, marka işbirlikleriyle ilgili kampanya ve promosyon duyurularını iletmek, üçüncü kişilerin teknik, lojistik ve benzeri diğer işlevlerini bizim adımıza yerine getirmelerini sağlamak, elektronik posta ile bülten göndermek ya da bildirimlerde bulunmak, sorularınızı cevaplamak ve etkin bir müşteri hizmeti sunmak, yeni içerikler hakkında bilgi vermek gibi amaçlar ile otomatik olan/olmayan yöntemler ile temini, devralınması, yurt içinde ve dışında yazılı/manyetik arşivlere kaydedilmesi, depolanması, muhafazası, elde edilebilir hale getirilmesi, kullanılması, güncellenmesi, değiştirilmesi, birleştirilmesi, yeniden düzenlenmesi, sınıflandırılması, açıklanması, paylaşımı, yurt içine veya yurt dışına aktarılması, transferi ve sair suretler ile işlenecek olup işbu program dışında kalan hiçbir amaç için kullanılmayacaktır.
+                                    
+                                    Üyeler, program kapsamında kişisel bilgilerin değişmesi halinde gerekli güncellemeleri kendileri yapabilir veya bu güncellemelerin yapılmasını talep edebilir. dr.com.tr, Üye ile SMS/kısa mesaj, anlık bildirim, otomatik arama, bilgisayar, telefon, faks, elektronik posta ve diğer elektronik iletiler ve diğer gönderim şekilleri ile iletişime geçebilir. İşbu Üye’lik dahilinde kampanya, elektronik bülten ve sair yollar ile elektronik ileti gönderilmesine onay vermeniz halinde, dilediğiniz zaman bu onayınızı iletilerde yer alan yönlendirmeler doğrultusunda veya https://www.dr.com.tr/Customer/Info adresinden ya da http://www.dr.com.tr/iletisim sayfasında yer alan iletişim bilgileri aracılığı ile dr.com.tr ile irtibata geçerek ayrılma isteğinizi ileterek listeden çıkabilirsiniz. Dr.com.tr bu şekilde gönderim listesinden çıkışını sağlayacaktır.
+                                    
+                                    Kişisel verileriniz, Üye’liğiniz kapsamında elektronik bülten gönderilmesi, reklam ve pazarlama faaliyetleri, şikayetlerinizin değerlendirilmesi ve Üye’liğinizin etkin bir şekilde işlemesi için dr.com.tr’nin program ortakları, hizmet sağlayıcıları, tedarikçileri ile Turkuvaz Holding Şirket ve iştirakleri ve bunların belirleyeceği üçüncü kişiler/kuruluşlar da dahil olmak üzere yurt içi ve yurt dışındaki üçüncü kişilere aktarılabilir. Üyeliğiniz kapsamında toplanan kişisel veriler, Üyeliğin Üye’nin kendisi veya dr.com.tr tarafından sonlandırılmasının ardından, ilgili mevzuat tarafından öngörülen süreler saklı kalmak kaydıyla Üye’nin talebi veya dr.com.tr tarafından re’sen silinir, yok edilir veya anonimleştirilir.
+                                    
+                                    Üye, üyeliğini dilediği zaman sonlandırma hakkına haizdir. Üyelik, üçüncü kişilere devredilemez veya satılamaz.
+                                    
+                                    dr.com.tr tarafından işlenen kişisel verileriniz 6698 sy. Kişisel Verilerin Korunması Kanunu’na uygun şekilde tarafımızca idari ve teknik her türlü güvenlik önlemi alınarak, yetkisiz erişime izin verilmeden güvenli şekilde saklanacaktır.
+                                    
+                                    Üye’nin kişisel verileri üzerindeki diğer hakları ve kişisel verileri işleme ilke ve yöntemleri ile verilerle ilgili alınan idari ve teknik güvenlik önlemleri hakkındaki detaylı bilgilere www.dr.com.tr adresli internet sitemizde bulunan Aydınlatma Metni ile Kişisel Verilerin İşlenmesi ve Korunması Politikamız’a inceleyebilirsiniz.
+                                    
+                                    
+                                    6-FESİH VE DEĞİŞİKLİKLER
+                                    
+                                    dr.com.tr ve üye bu üyelik sözleşmesini dilediği zaman sona erdirebilir.
+                                    
+                                    dr.com.tr bu üyelik sözleşmesinin koşullarında, www.dr.com.tr alan adlı internet sitesinde ve www.dr.com.tr alan adlı internet sitesinin içeriğinde ya da diğer Platformlarda sunduğu hizmetlerde dilediği zaman ve yasal düzenlemeler gereği de tek taraflı olarak değişiklik, ayarlama ve güncelleme yapma hakkına sahiptir. Bu değişiklikler, ayarlamalar ve güncellemeler ilgili Platformda yayınlandığı andan itibaren geçerlilik kazanmış sayılır. Kullanıcılar www.dr.com.tr alan adı altında yayın yapan internet sitesine her yeni girişlerinde veya ilgili Platformu her kullanımlarında, güncellenmiş/değiştirilmiş/ayarlanmış maddeleri kabul etmiş sayılmaktadırlar.
+                                    
+                                    Üye dr.com.tr tarafından işbu sözleşme hükümleri uyarınca verilecek hizmeti kullanmaya başladığı tarihten itibaren, sözleşmede belirtilen hak ve yükümlülüklere aykırı hareketleri ve/veya edim ve taahhütlerini yerine getirmemesi nedeniyle, dr.com.tr'nin ve/veya üçüncü kişilerin uğrayacağı her türlü zarar ve ziyanı derhal tazmin etmeyi ve dr.com.tr tarafından üyenin üyeliğinin iptal ederek sözleşmeyi tek taraflı olarak feshedebileceğini kabul ve taahhüt eder.
+                                    
+                                    
+                                    7-İHTİLAF
+                                    
+                                    İşbu sözleşme kanunlar ihtilâfı kurallarına bakılmaksızın Türkiye Cumhuriyeti kanunlarına tâbi olup, bu kanunlara göre çözümlenecek ve İstanbul Mahkemeleri görev ve yer olarak yetkili olacaktır.
+                                    
+                                    
+                                    8-TEBLİGAT ADRESLERİ
+                                    
+                                    Üyenin D&R’a'a bildirdiği adres, bu sözleşme ile ilgili olarak yapılacak her türlü bildirim için yasal tebligat adresi kabul edilir.
+                                    
+                                    Üye, mevcut adreslerindeki değişiklikleri yazılı olarak D&R’a 3 (üç) gün içinde bildirmedikçe, eski adreslere yapılacak bildirimlerin geçerli olacağını ve kendisine yapılmış sayılacağını kabul eder.
+                                    
+                                    İşbu sözleşme nedeniyle dr.com.tr’nin üyenin sistemde kayıtlı e-posta adresini kullanarak yapacağı her türlü bildirim aynen geçerli olup, e-postanın dr.com.tr tarafından yollanmasından 1 (bir) gün sonra üyeye ulaştığı kabul edilecektir.
+                                    
+                                    
+                                    9-YÜRÜRLÜK
+                                    
+                                    Üye, bu üyelik sözleşmesinde yer alan maddelerin tümünü okuduğunu, anladığını, kabul ettiğini ve kendisiyle ilgili olarak verdiği bilgilerin doğruluğunu onayladığını beyan, kabul ve taahhüt eder. İşbu üyelik sözleşmesi üyenin üye olması anında akdedilmiş ve karşılıklı ve süresiz olarak yürürlüğe girmiştir. Sözleşme üyeliğin sona ermesi ile veya işbu sözleşmede sayılan fesih hallerinden herhangi birinin gerçekleşmesi ile hiçbir ihtara gerek kalmaksızın kendiliğinden hükümsüz kalacaktır.
+                
+                            </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <div class="form-row">
+            <!--popup-->
+           <a href="#popup5"> <input class="btn red" type="button"  name="btnAddNewCustomer" id="login_btn" value="ÜYELİĞİ TAMAMLA"/> </a>
+            <div id="popup5" class="overlay">
+                    <div class="popup">
+                    <a class="close" href="#">&times;</a>
+                    <div class="content"> 
+                       <img src="foto/x.PNG" style=" display: block;
+                       margin-left: auto;
+                       margin-right: auto; height:150px;" >
+                       <h2> Lütfen Üyelik Sözleşmesini Onaylayınız! </h2>
+                    </div>
+                    </div>
+                   </div>
+        </div>
+    </div>
+<!--D&R Reklamı-->
+    <div id="app">
+        <img src="foto/dr-logo-large.png"  style=" display: block;
+        margin-left: auto;
+        margin-right: auto; height:150px; " alt="uye-logo">
+        <h1>{{acıklama1}} <strong>{{acıklama2}}</strong></h1>
+        <p>
+            <strong>{{acıklama3}}</strong>{{acıklama4}} <strong>{{acıklama5}}</strong> {{acıklama6}}<strong>{{acıklama7}}</strong> {{acıklama8}}
+        </p>
+    </div>
+    </div>
+</div>
+
+     <!--Footer-->               
+                                        
+     <footer>
+        <div class="container" style="width: 1500px">
+            <nav class="footerNav" style="background:whitesmoke; height: 354px;">
+
+                    <div id="menu">
+                            <a href="" >D&R Hakkında</a>
+                            <a href="">D&R Kart</a>
+                            <a href="">Yardım/SSS</a>
+                            <a href="">Kampanyalar</a>
+                            <a href="">D&R Mağazalar</a>
+                            <a href="">Mobil Uygulamalar</a>
+                            <a href="">İşlem Rehberi</a>
+                            <a href="">Kırtasiye</a>
+                            <a href="">Sanal Hediye Kartı</a>
+                            <a href="">İletişim</a>
+                            <a href="">Mağaza Etkinlikleri</a>
+                            <a href="">Kitap Fuarı</a>
+                        
+    
+                    
+            
+            <div class="channels" style="background:#f2f2f2; width: 1520px">
+                <ul class="social" style="background:#f2f2f2">
+                    <li class="fb"><a href="http://www.facebook.com/DRdunyasi" target="_blank"><i class="icon-facebook" ></i><img src="foto\facebook.png" alt="facebook"/></i></a></li>
+                    <li class="twitter"><a href="http://twitter.com/DRDunyasi" target="_blank"><i class="icon-twitter"><img src="foto\twitter.png" alt="twitter"/></i></a></li>
+                    <li class="instagram"><a href="http://instagram.com/dr_dunyasi" target="_blank"><i class="icon-instagram-yeni"><img src="foto\instagram.png" alt="instagram"/></i></a></li>
+                </ul>
+                <ul class="app" style="background:#f2f2f2" width: 1520px >
+                    <li class="android"><a href="http://www.dr.com.tr/Common/PageContent/DR_MobilUygulamalar"><img class="lazyload" img src="foto\google-play.png" alt="Google Play"/></a></li>
+                    <li class="android"><a href="http://www.dr.com.tr/Common/PageContent/DR_MobilUygulamalar"><img class="lazyload" img src="foto\app-store.png" alt="App Store"/></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" style="width: 1520px">
+            <hr>
+            <ul class="copyright"  style="background:#f2f2f2">
+                <li>&copy; Copyright 2000-2019 Turkuvaz Müzik Kitap Mağazacılık ve Pazarlama A.Ş. Tüm hakları saklıdır.</li>
+                <li class="separator"></li>
+                <li><a href="https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/10740" target="_blank" >Bilgi Toplumu Hizmetleri</a></li>
+                <li class="separator"></li>
+                <li><a href="http://www.dr.com.tr/kisisel-verilere-iliskin-aydinlatma-metni" target="_blank" >Kişisel Verilere İlişkin Aydınlatma Metni</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+        
+
+
+<script src="uyeol.js"></script>
+</body>

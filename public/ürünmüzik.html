@@ -1,0 +1,492 @@
+<html>
+    <head>
+            <link href="ürünmüzik.css" type="text/css" rel="stylesheet"/>
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+            <script type = "text/javascript" src = "js/vue.js"></script>
+
+        <title>D&R-Kültür Sanat ve Eğlence Dünyası</title>
+    </head>
+
+    
+<body>
+    <!--Sayfa başlangıcı :logo,dropdownmenü,searcbar ,üyegirişi,sepetim -->
+        <ul> <!--logo-->
+                <li><a href="d&r.html"><img src="foto/head-logo.png" height="70" ></a></li>
+                <!--dropdown menü-->
+                <li class="dropdown">
+                  <a  class="dropbtn"><img src="foto/menü.PNG" height="70" ></a>
+                  <div class="dropdown-content">
+                        <div class="row">
+                                <div class="column">
+                                  
+                                  <a href="kitap.html"><img src="foto/Ekran Alıntısı.PNG"  style="height: 200px;width: 175px;" ></a>
+                                  <a href="#"><img src="foto/Yeniçıkan.PNG"  style="height: 200px;width: 175px;"></a>
+                                  
+                                </div>
+                                <div class="column">
+                                 
+                                  <a href="#"><img src="foto/ekitap.PNG" style="height: 200px;width: 175px;" ></a>
+                                  <a href="#"><img src="foto/çoksatan.PNG" style="height: 200px; width: 175px;" ></a>
+                                 
+                                </div>
+                                <div class="column">
+                                  
+                                  <a href="film.html"><img src="foto/film.PNG" style="height: 200px;width: 175px;" ></a>
+                                  <a href="#"><img src="foto/hediyelik.PNG" style="height: 200px;width: 175px;" ></a>
+                                  
+                                </div>
+
+                                <div class="column">
+                                
+                                        <a href="müzik.html"><img src="foto/Müzik.PNG" style="height: 200px;width: 175px;" ></a>
+                                        <a href="#"><img src="foto/spor.PNG" style="height: 200px;width: 175px;" ></a>
+                                        
+                                      </div>
+                                
+                                <div class="column">
+                                  
+                                            <a href="elektronik.html"><img src="foto/elektronik.PNG" style="height: 200px;width: 175px;" ></a>
+                                            <a href="#"><img src="foto/hobi.PNG" style="height: 200px;width: 175px;" ></a>
+                                            
+                                    </div>     
+                                    
+                                    
+                                    <div class="column">
+                                  
+                                            <a href="#"><img src="foto/Oyunkonsol.PNG" style="height: 200px;width: 175px;" ></a>
+                                            <a href="#"><img src="foto/kampanya.PNG" style="height: 200px;width: 175px;" ></a>
+                                            
+                                          </div>
+                                          
+                                          
+                                          <div class="column">
+                                  
+                                                <a href="#"><img src="foto/kırtasiye.PNG" style="height: 200px;width: 175px;" ></a>
+                                                <a href="#"><img src="foto/mağaza.PNG" style="height: 200px;width: 175px;" ></a>
+                                                
+                                   </div>             
+                             </div>
+
+                  </div>
+                </li>
+                <!--searchbar-->
+                <li class="searhbar" >
+                        <a class="icon" ><img src="foto/search icon.PNG" height="70" > </a>
+                    <div class ="searchinput">
+                        
+                       <a><input type="text" style="width: 500px; height: 70px" placeholder="HANGİ ÜRÜNÜ ARIYORSUN?" > </a>
+                       <a ><button class="btn default" style="height:70px ; width:90px " style="background-color: white; font-style:bold; " >ARA</button> </a>
+                        
+                    </div>
+                </li>
+                <!--Üye girişi/sepetim-->
+               <li style="float: right;" > <a href="" style="color:black; font:bold" >SEPETİM</a> </li>
+               <li style="float:right" > <a href="uyelik.html" style="color:grey; font: bold;" > ÜYE GİRİŞİ </a> </li>
+
+              </ul>
+
+                        <!--Anabaşlık-->
+    <div id="app2" >
+
+        <h5 style="text-align:left; color: black ; font: bold;">{{başlık}}</h5>
+</div>
+<!--Sayfa roww ve columnn sınıflarıyla iki bölüme ayrılıyor-->
+<div class="roww">
+    <!--Ürün Fotoğrafı-->
+        <div class="columnn" style="background-color:white;">
+          <h2>Fikret Şeneş Şarkıları 2</h2>     
+    <img id="myImg" src="foto/mk.PNG"  style="width:100%;max-width:500px">
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+  
+    </div>  
+        </div>
+        <!--Ürün Bilgileri-->
+        <div class="columnn" style="background-color:white; ">
+          <ul style="background-color: white;" >
+              <li style="float: right; background-color: white; ">Favorilere Ekle </li>
+            <li style="float: right; background-color: white;" >  
+              <img src="foto/mkstars.PNG" >  </li>
+            </ul>
+                       
+                <div class="yazar" style="border-style: ridge;"  >
+                  <p style="font-size: large; " > Sanatçı:<strong>Fikret Şeneş</strong></p>
+                </div>
+                
+                  <!--Fiyat Bilgileri-->
+            <div class="fiyat" style="border-style: ridge;" >
+            
+              
+                <label style="background: #1e4d96;
+                border: solid 1px #1e4d96;
+                color: #fff;
+                font-weight: 600 ;margin: 20px;font-size: 13px;
+                font-weight: 600;
+               border: solid 1px #ebebeb;
+                padding: 10px 15px;
+                margin-right: 500px;;
+                 float: left;
+                border-radius: 4px;
+                transition: all 0.4s cubic-bezier(0.03, 0.96, 0.52, 0.98);
+                box-shadow: 0 1px 1px rgba(80, 80,80,0.1 )" >CD </label>
+
+               
+               <img src="foto/mkp.PNG" >
+              
+                 <div class="quantity" style="float:right;" >
+                        <input style="position: relative;
+                        display: inline-block;
+                        border: solid 1px #999;
+                        color: #999;
+                        border-radius: 10px;
+                        width: 20px;
+                        height: 20px;
+                        padding: 0;
+                        text-align: center;
+                        line-height: 10px;
+                        background: none;
+                        -webkit-appearance: none;" id="decrease" type="button" onclick="BtnDecrase();" value="-">
+                        <input  style="width: 20px;
+                        text-align: center;
+                        border: none;
+                        color: #000;
+                        display: inline-block;
+                        padding: 0;
+                    " id="qty" type="text" onclick="QtyChange();" value="1" />
+                        <input   style="position: relative;
+                        display: inline-block;
+                        border: solid 1px #999;
+                        color: #999;
+                        border-radius: 10px;
+                        width: 20px;
+                        height: 20px;
+                        padding: 0;
+                        text-align: center;
+                        line-height: 10px;
+                        background: none;
+                        -webkit-appearance: none;"  id="increase" type="button" onclick="BtnIncrease();" value="+">
+
+
+<a href="#popup1"><button  style="background: #e31e24;
+color: #fff;
+border-color: #e31e24;
+font-family: Open Sans, sans-serif;
+font-size: 14px;
+  padding: 10px 20px;
+   border: solid 1px #ebebeb;
+border-radius: 25px;
+box-sizing: border-box;
+text-decoration: none !important;
+   text-align: center;
+display: inline-block;
+   float: right;"
+>SEPETE EKLE</button></a>
+<!--Sepetim popup-->
+<div id="popup1" class="overlay">
+        <div class="popup">
+        <a class="close" href="#">&times;</a>
+        <div class="content"> 
+           <img  src="foto/tikk.PNG">
+           <h2 > Ürün Alışveriş Sepetinize Eklendi. </h2>
+        </div>
+        </div>
+       </div>
+
+
+
+                 </div>
+        <div class="uyarı"  >
+           <a href="#popup2" > <button style="    width: 100%;
+              display: block;
+              margin-top: 10px;font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: solid 1px #ebebeb;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    text-align: center;
+    display: inline-block; float: right;background: #fff;
+    color: #000;  width: 200px;">Fiyatı Düşünce Uyar</button></a>
+    <!--Uyarı popup-->
+<div id="popup2" class="overlay">
+<div class="popup" style="background-color: whitesmoke;">
+   <h1  > Fiyatı Düşünce Uyar </h1>
+       <a class="close" href="#">&times;</a>
+       <div class="content">
+           <h5 style="text-align: center;">Hangi fiyata düşünce haber verelim?</h5>
+          <a> <input type="text" style="width: 350px;height: 30px;" > </a>
+          <h5 style="text-align: center;" >Kaç gün içinde haber verelim?</h5>
+          <a> <input type="text" style="width: 350px;height: 30px;" > </a>
+
+         <a>  <button style="background: #e31e24;
+           color: #fff;
+           border-color: #e31e24;
+       
+           font-family: Open Sans, sans-serif;
+           font-size: 14px;
+           padding: 10px 20px;
+           border: solid 1px #ebebeb;
+           border-radius: 25px;
+           box-sizing: border-box;
+           text-decoration: none !important;
+           text-align: center;
+           display: inline-block;
+           margin: 10px;
+         "> Alarm Listeme Ekle </button> </a>
+       </div>
+   </div>
+</div>
+        </div>
+        <!--Ürün teslimat tarihi-->
+        <img src="foto/üks.PNG" >
+                
+         </div>
+         <!--Ürün Teslimat Bilgileri-->
+    
+                 
+         <div class="yazar" style="border-style: ridge;"  >
+                <p style="font-size:large;" > <strong>75 TL Üzeri Kargo Bedava</strong></p>
+         </div>
+         <div class="yayınevi" style="border-style: ridge;"  >
+                <p style="font-size: large;" >Barkod:8680817501383
+                </p>
+        </div>
+                 
+        <div class="yazar" style="border-style:ridge"> 
+            <p style="font-size: large;" > <strong>Yorum Yaz</strong></p>
+         </div>
+        
+    
+            
+                  
+            
+           
+        </div>
+      </div>
+
+      <!--Ürünün Genel Bilgileri-->
+      <div class="özet" style="text-align: center;" >
+        <p><p><strong>Parça Listesi</strong></p>
+        <p>1.Sıla - Her Yaşın Bir Güzelliği Var</p>
+        <p>2.Yıldız Tilbe - Mutluluğun Bedeli</p>
+        <p>3.Yalın - Olur Ya</p>
+        <p>4.Buray - Kimler Geldi Kimler Geçti</p>
+        <p>5.Rubato - Bana Yalan Söylediler</p>
+        <p>6.Sıx Pack - Sana Bana Yeter</p>
+        <p>7.Bengü - Bir Günah Gibi</p>
+        <p>8.Mustafa Ceceli - Düşünme Hiç</p>
+        <p>9.Yeşim Salkım - Uykusuz Her Gece</p>
+        <p>10.Irmak Arıcı - Olmaz Olmaz Bu İş Olamaz</p>
+        <p>11.Can Oflaz - Ben Varım</p>
+        <p>12.Işıl Yücesoy - Dönüyorum Eski Sevgilime</p>
+        <p>13.Ceylan Çapa - Ne Günler</p>
+        <p> </p></p>
+                                                <p><strong>Disk Sayısı : </strong>1</p>
+                                <p><strong>Medya Cinsi : </strong>CD</p>
+                        <p></p>
+
+      </div> 
+      <!--Yorum-->
+ 
+        <h2 style="text-align: center;" >Yorumlar </h2>      
+   
+            
+    <div class="yorum" style="border-style: ridge;"  >
+            <p style ="font-size: medium; text-align: center;" >Henüz Yorum Yapılmadı</p>
+     </div>
+     <button   style="background: #b0b6c0;
+     color: #fff;
+     border-color: #b0b6c0;
+     font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: solid 1px #ebebeb;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    text-align: center;
+    display: inline-block  ;
+    margin: 30px 0;
+    float: left;
+    width: 100%;
+    display: block;
+     " >Yorum Yapmak için Giriş Yapmalısınız</button>
+
+
+
+        <!--Bu kısımda alternatif ürünler gösteriliyor-->
+
+         
+        <div style="text-align: center;" id = "component_baslık2">
+          <componentbaslık></componentbaslık>
+          </div>
+       <section class="shelf">
+            <div class="container">                       
+                    
+
+            </div>
+            <div class="row">
+                    <a href="" title="Uygarlıkların Batışı" >
+                        <picture>
+                            <img style="border-block: 2px;" src="foto\mi1.png" alt="a1" width="200" >
+                         </picture>
+                    </a>
+
+                    <a href="" title="Kalbimin Can Mayası" >
+                            <picture>
+                     i           <img style="border-block: 2px;" src="foto\mi2.png" alt="a2" width="200" >
+                             </picture>
+                        </a>
+                     <a href="" title="Portekize Yolculuk" >
+                            <picture>
+                               <img style="border-block: 2px;" src="foto\mi3.png" alt="a3" width="200" >
+                             </picture>
+                        </a>    
+
+                     <a href="" title="Mutlu Olmak İstiyorum" >
+                                <picture>
+                                    <img  style="border-block: 2px;" src="foto\mi4.png" alt="a4" width="200" >
+                                 </picture>
+                            </a>  
+                     <a href="" title="Her Umut Ortak Akar" >
+                                  <picture>
+                                      <img style="border-block: 2px;" src="foto\mi5.png" alt="a5" width="200" >
+                                  </picture>
+                                </a>  
+                    <a href="" title="Gelirken Ekmek Al" >
+                                 <picture>
+                                        <img  style="border-block: 2px;" src="foto\mi6.png" alt="a6" width="200" >
+                                     </picture>
+                                  </a>                    
+
+
+            </div>     
+       </section>
+       <!--Bu Kısımda Alternatif Ürünler Gösteriliyor-->
+       
+
+           
+       <div style="text-align: center;" id = "component_baslık5">
+        <componentbaslık2></componentbaslık2>
+        </div>
+
+       <section class="shelf">
+            <div class="container">
+
+  
+            </div>
+            <div class="row">
+                    <a href="" title="Uygarlıkların Batışı" >
+                        <picture>
+                            <img style="border-block: 2px;" src="foto\ük8.png" alt="a1" width="200" >
+                         </picture>
+                    </a>
+
+                    <a href="" title="Kalbimin Can Mayası" >
+                            <picture>
+                                <img style="border-block: 2px;" src="foto\ük9.png" alt="a2" width="200" >
+                             </picture>
+                        </a>
+                     <a href="" title="Portekize Yolculuk" >
+                            <picture>
+                               <img style="border-block: 2px;" src="foto\ük10.png" alt="a3" width="200" >
+                             </picture>
+                        </a>    
+
+                     <a href="" title="Mutlu Olmak İstiyorum" >
+                                <picture>
+                                    <img  style="border-block: 2px;" src="foto\ük11.png" alt="a4" width="200" >
+                                 </picture>
+                            </a>  
+                     <a href="" title="Her Umut Ortak Akar" >
+                                  <picture>
+                                      <img style="border-block: 2px;" src="foto\ük12.png" alt="a5" width="200" >
+                                  </picture>
+                                </a>  
+                    <a href="" title="Gelirken Ekmek Al" >
+                                 <picture>
+                                        <img  style="border-block: 2px;" src="foto\ük13.png" alt="a6" width="200" >
+                                     </picture>
+                                  </a>                    
+
+
+            </div>     
+       </section>
+       
+        <!--Footer-->               
+                  
+
+
+        <div id="buton">
+          <button style="position: fixed;left:0;bottom: 0; background: #e31e24;
+          color: #fff;
+          border-color: #e31e24;
+      
+          font-family: Open Sans, sans-serif;
+          font-size: 14px;
+          padding: 10px 20px;
+          border: solid 1px #ebebeb;
+          border-radius: 25px;
+          box-sizing: border-box;
+          text-decoration: none !important;
+          text-align: center;
+          display: inline-block;
+          margin: 10px;"  v-on:click="show = !show">
+            Footer         </button>
+          <transition name="fade">
+            <p v-if="show">   <footer >
+              <div class="container" style="width:1500;">
+                  <nav class="footerNav" style="background:whitesmoke; height: 300px;">
+                          <div style="text-align: center;" id="menu" class="altmenu">
+                                  <a href="" >D&R Hakkında</a>
+                                  <a href="">D&R Kart</a>
+                                  <a href="">Yardım/SSS</a>
+                                  <a href="">Kampanyalar</a>
+                                  <a href="">D&R Mağazalar</a>
+                                  <a href="">Mobil Uygulamalar</a>
+                                  <a href="">İşlem Rehberi</a>
+                                  <a href="">Kırtasiye</a>
+                                  <a href="">Sanal Hediye Kartı</a>
+                                  <a href="">İletişim</a>
+                                  <a href="">Mağaza Etkinlikleri</a>
+                                  <a href="">Kitap Fuarı</a>
+                          </div>
+          
+                          
+                  
+                  <div class="channels" style="background:#f2f2f2; width: 1500px">
+                      <ul class="social" style="background:#f2f2f2">
+                          <li class="fb"><a href="http://www.facebook.com/DRdunyasi" target="_blank"><i class="icon-facebook" ></i><img src="foto\facebook.png" alt="facebook"/></i></a></li>
+                          <li class="twitter"><a href="http://twitter.com/DRDunyasi" target="_blank"><i class="icon-twitter"><img src="foto\twitter.png" alt="twitter"/></i></a></li>
+                          <li class="instagram"><a href="http://instagram.com/dr_dunyasi" target="_blank"><i class="icon-instagram-yeni"><img src="foto\instagram.png" alt="instagram"/></i></a></li>
+                          <li class="android"><a href="http://www.dr.com.tr/Common/PageContent/DR_MobilUygulamalar"><img class="lazyload" img src="foto\google-play.png" alt="Google Play"/></a></li>
+                          <li class="android"><a href="http://www.dr.com.tr/Common/PageContent/DR_MobilUygulamalar"><img class="lazyload" img src="foto\app-store.png" alt="App Store"/></a></li>
+                      </ul>
+          
+                  </div>
+                  </nav>
+              </div>
+            
+          </footer> </p>
+          </transition>
+        </div>
+       
+        
+                    
+                    
+
+
+
+
+
+
+<script src="ürünmüzik.js"></script>
+<script src="baslıkcomponent.js"></script>
+</body>
+</html>
+
+    

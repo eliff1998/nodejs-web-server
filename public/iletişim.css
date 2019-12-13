@@ -1,0 +1,468 @@
+
+
+section.full-content h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: inherit;
+}
+
+section.full-content hr {
+    width: 30px;
+    clear: both;
+    margin-bottom: 0;
+}
+
+hr {
+    margin-top: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    box-sizing: content-box;
+    height: 0;
+        display: block;
+        unicode-bidi: isolate;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        overflow: hidden
+}
+
+section.full-content ul.tab-style {
+    margin: 0 0 20px 0;
+}
+.tab-style {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.tab-style li a.active, .tab-style li a:hover {
+    color: #000;
+    border-color: #000;
+}
+.tab-style li a {
+    display: block;
+    border-bottom: solid 3px #d8d8d8;
+    color: #878787;
+    padding: 15px 0;
+}
+
+a {
+    color: #9e9e9e;
+}
+
+.tab-style li {
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+}
+
+style li a {
+    display: block;
+    border-bottom: solid 3px #d8d8d8;
+    color: #878787;
+    padding: 15px 0;
+}
+
+a {
+    color: #9e9e9e;
+}
+
+.tab-style li {
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+.tab-style li a {
+    display: block;
+    border-bottom: solid 3px #d8d8d8;
+    color: #878787;
+    padding: 15px 0;
+}
+
+a {
+    color: #9e9e9e;
+}
+
+
+.tab-style li {
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+}
+
+section.full-content ul.tab-style {
+    margin: 0 0 20px 0;
+}
+.tab-style {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+section.full-content .locations {
+    margin: 30px 0 40px;
+}
+section.full-content .locations {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+section.full-content h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h3, .h3 {
+    font-size: 24px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    color: inherit;
+
+}
+
+.text-center, .tab-style.alternate {
+    text-align: center;
+}
+
+.text-center, .tab-style.alternate {
+    text-align: center;
+}
+
+section.full-content .locations .contact-us-form {
+    width: 100%;
+    position: relative;
+    margin: 10px 0;
+    float: left;
+}
+
+section.full-content .locations .contact-us-form label {
+    width: 100%;
+    display: block;
+    margin: 15px 0 5px;
+    
+}
+
+input[type=text], input[type=password], input[type=number], input[type=tel], textarea {
+    width: 100%;
+    height: 48px;
+    display: block;
+    position: relative;
+    line-height: 45px;
+    padding: 0 10px;
+    border: solid 1px #DEDEDE;
+    box-shadow: 0 1px 1px rgba(80, 80, 80, 0.1);
+    border-radius: 2px;
+
+}
+
+input, textarea {
+    outline: none;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.col-half {
+    width: 50%;
+
+}
+.col-half {
+    width:50%;
+}
+
+section.full-content .locations .contact-us-form label {
+    width: 50%;
+    display: block;
+    margin: 15px 0 5px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+select.custom {
+    width: 100%;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, select {
+    text-transform: none;
+}
+select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+element.style {
+    width: 562px;
+    display: inline-block;
+}
+.selectBox-dropdown {
+    position: relative;
+    text-decoration: none;
+    text-align: left !important;
+    color: #474747;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    outline: 0;
+    vertical-align: middle;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(80, 80, 80, 0.1);
+    border-radius: 2px;
+
+    cursor: pointer;
+    border: solid 1px #ebebeb;
+    text-transform: uppercase;
+    width: 100% !important;
+}
+
+.selectBox-dropdown .selectBox-label {
+    padding: 15px 15px 8px;
+    display: inline-block;
+    overflow: hidden;
+    outline: 0;
+    
+}
+
+.selectBox-dropdown .selectBox-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23px;
+    height: 100%;
+}
+
+.btn.blue {
+    background: #1e4d96;
+    color: #fff;
+    border-color: #1e4d96;
+
+}
+
+html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: solid 1px #ebebeb;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    text-align: center;
+    display: inline-block;
+    margin-top:20px;
+
+}
+
+textarea {
+    position: relative;
+    line-height: 1.5em;
+}
+
+textarea {
+    height: 125px;
+}
+
+section.full-content .locations .contact-us-form .text-center, section.full-content .locations .contact-us-form .tab-style.alternate {
+    width: 100%;
+    position: relative;
+    float: left;
+    display: block;
+    margin: 10px 0;
+}
+.text-center, .tab-style.alternate {
+    text-align: center;
+}
+.full {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.full, section.full-content .vendor-filter, section.full-content .vendors, section.full-content .locations {
+    width: 120%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+section.full-content .locations {
+    margin: 30px 0 40px;
+}
+.full, section.full-content .vendor-filter, section.full-content .vendors, section.full-content .locations {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+* {
+    
+    box-sizing: border-box;
+}
+
+section, summary {
+    display: block;
+}
+
+section.full-content .locations .address-card .cell {
+    padding: 20px;
+    height: 100%;
+    position: relative;
+    border: solid 1px #DEDEDE;
+    box-shadow: 0 1px 1px rgba(80, 80, 80, 0.1);
+    border-radius: 2px;
+
+}
+
+.half-height {
+    position: relative;
+    height: 50%;
+}
+
+section.full-content .locations .address-card {
+    
+    text-align: center;
+}
+
+section.full-content .locations .address-card .cell h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #4f627f;
+}
+
+section.full-content .locations .address-card .cell p {
+    margin: 10px 0;
+}
+section.full-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.half-height {
+    position: relative;
+    height: 50%;
+}
+* {
+    
+    box-sizing: border-box;
+}
+
+.col-sm-7, section.favorites-list .product, section.alarms-list .product {
+    width: 30%;
+}
+
+.row  {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+* {
+    
+    box-sizing: border-box;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom:100px;
+    width: 200%;
+    background-color:whitesmoke;
+    color:whitesmoke;
+  }
+  
+  #menu a{
+    width:300px;
+    height:50px;
+    display: inline-block;
+    margin-left:10;
+    padding:5px;
+    color: #1B1B1B;
+    background-color:whitesmoke;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  footer .channels ul li {
+    display: inline-block;
+    margin-right: 0 0 0 5px;
+    float: right;
+  }
+  
+  footer .channels ul {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  /*Sıralı butonlar*/
+  .btn {
+      border: 2px solid black;
+      background-color: white;
+      color: black;
+      padding: 20px 40px;
+      font-size: 18px;
+      cursor: pointer;
+    } 
+  
+    
+  /* Grey */
+  .default {
+      border-color: #e7e7e7;
+      color: black;
+    }
+    
+    .default:hover {
+      background: #e7e7e7;
+    }

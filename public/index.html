@@ -1,0 +1,709 @@
+<html>
+    <head>
+            <link href="d&r.css" type="text/css" rel="stylesheet"/>
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <title>D&R-Kültür Sanat ve Eğlence Dünyası</title>
+    </head>
+    
+      
+   
+    
+    <body>
+        <!--Sayfa başlangıcı :logo,dropdownmenü,searcbar ,üyegirişi,sepetim -->
+            <ul> <!--logo-->
+                    <li><a href="index.html"><img src="C:\Users\eliff\OneDrive\Masaüstü\node-js-giris\web-server\foto/head-logo.png" height="70" ></a></li>
+                    <!--dropdown menü-->
+                    <li class="dropdown">
+                      <a  class="dropbtn"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/menü.PNG" height="70" ></a>
+                      <div class="dropdown-content">
+                            <div class="row">
+                                    <div class="column">
+                                      
+                                      <a href="kitap.html"><img src="foto/Ekran Alıntısı.PNG"  style="height: 200px;width: 175px;" ></a>
+                                      <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/Yeniçıkan.PNG"  style="height: 200px;width: 175px;"></a>
+                                      
+                                    </div>
+                                    <div class="column">
+                                     
+                                      <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/ekitap.PNG" style="height: 200px;width: 175px;" ></a>
+                                      <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/çoksatan.PNG" style="height: 200px; width: 175px;" ></a>
+                                     
+                                    </div>
+                                    <div class="column">
+                                      
+                                      <a href="film.html"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/film.PNG" style="height: 200px;width: 175px;" ></a>
+                                      <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/hediyelik.PNG" style="height: 200px;width: 175px;" ></a>
+                                      
+                                    </div>
+    
+                                    <div class="column">
+                                      
+                                            <a href="müzik.html"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/Müzik.PNG" style="height: 200px;width: 175px;" ></a>
+                                            <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/spor.PNG" style="height: 200px;width: 175px;" ></a>
+                                            
+                                          </div>
+                                    
+                                    <div class="column">
+                                      
+                                                <a href="elektronik.html"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/elektronik.PNG" style="height: 200px;width: 175px;" ></a>
+                                                <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/hobi.PNG" style="height: 200px;width: 175px;" ></a>
+                                                
+                                        </div>     
+                                        
+                                        
+                                        <div class="column">
+                                      
+                                                <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/Oyunkonsol.PNG" style="height: 200px;width: 175px;" ></a>
+                                                <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/kampanya.PNG" style="height: 200px;width: 175px;" ></a>
+                                                
+                                              </div>
+                                              
+                                              
+                                              <div class="column">
+                                      
+                                                    <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/kırtasiye.PNG" style="height: 200px;width: 175px;" ></a>
+                                                    <a href="#"><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/mağaza.PNG" style="height: 200px;width: 175px;" ></a>
+                                                    
+                                       </div>             
+                                 </div>
+    
+                      </div>
+                    </li>
+                    <!--searchbar-->
+                    <li class="searhbar" >
+                            <a class="icon" ><img src="C:\Users\eliff\OneDrive\Masaüstü\foto/search icon.PNG" height="70" > </a>
+                        <div class ="searchinput">
+                            
+                           <a><input type="text" style="width: 500px; height: 70px" placeholder="HANGİ ÜRÜNÜ ARIYORSUN?" > </a>
+                           <a ><button class="btn default" style="height:70px ; width:90px " style="background-color: white; font-style:bold; " >ARA</button> </a>
+                            
+                        </div>
+                    </li>
+                    <!--Üye girişi/sepetim-->
+                   <li style="float: right;" > <a href="#popup1" style="color:black; font:bold" >SEPETİM</a> </li>
+                   <li style="float:right" > <a href="uyelik.html" style="color:grey; font: bold;" > ÜYE GİRİŞİ </a> </li>
+    
+                  </ul>
+    
+    
+    
+    
+                <!--popup-->
+        <div id="popup1" class="overlay">
+       <div class="popup">
+      
+               <a class="close" href="#">&times;</a>
+               <div class="content">
+    
+                        <!--1.ürün sepete eklendi-->
+                <div class="product-row1">
+            <table style="border-style: ridge; width:250px;">
+               
+             <tr>
+                <td><span style="display: block;float: left;">
+                        <img src="C:\Users\eliff\OneDrive\Masaüstü\foto/fş.png" alt="Fikret Şeneş Şarkıları 2"/>
+                </span><div style="float: left;"></div><p class="product-name" ><a title="Fikret Şeneş Şarkıları 2" style="color: black;" href="ürünmüzik.html">Fikret Şeneş Şarkıları 2</a></p>
+                <h5 class="product-cat">Medya Tipi: CD/1 ADET <br> 21,17 TL</td>
+            </div>
+        </div>
+        
+    </div></td>
+        
+      </tr>
+    
+     
+                
+              </tr>
+              <tr>
+    
+    
+                   <!--2.ürün sepete eklendi-->
+                <td><div class="product" style="padding-left: 0px;">
+                    <div style="float: left;width: 75px;">
+                        
+                        <span style="display: block;">
+                                <img src="C:\Users\eliff\OneDrive\Masaüstü\foto/kulaklık.png" alt="Xiaomi Airdots TWS Bluetooth Kulaklık Black"/>
+                        </span>
+                    </div>
+                    <div style="product-row3"  style= "margin-top:30px;">
+                        <p class="product-name" ><a title="Xiaomi Airdots TWS Bluetooth KulaklıkBlack" style="color: black;" href="ürünelektronik.html">Xiaomi Airdots TWS Bluetooth Kulak İçi Kulaklık Black</a></p>
+                        <h5 class="product-cat">Renk: Siyah/1 ADET  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;189,90 TL</td>
+                    </div>
+                </div>
+            </div></td>
+                
+              </tr>
+            
+              <tr>
+                  <!--3.ürün sepete eklendi-->
+                <td><div class="product" style="padding-left: 0px;">
+                    <div style="float: left;width: 75px;">
+                        
+                        <span style="display: block;text-align: center;">
+                                <img src="C:\Users\eliff\OneDrive\Masaüstü\foto/shzm.PNG" alt="Shazam!"/>
+                        </span>
+                    </div>
+                    <div style="product-row2"  style= "margin-top:30px;">
+                        <p class="product-name" ><a title="Shazam!" style="color: black;" href="ürünfilm.html">Shazam!</a></p>
+                        <h5 class="product-cat">Medya Tipi: DVD/1 ADET  <br>34,99 TL</td>
+                        
+                    </div>
+                </div></td>
+                
+              </tr>
+            </table>
+            <div class="half">
+                <div class="detail">
+                    
+                </div>
+               </table>
+                
+       </div>
+    
+       <div class="sum">
+        <p class="sum-detail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOPLAM 3 ÜRÜN</p>
+        <p class="sum-price">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;246,06 TL</p> 
+        <hr>
+                       
+        
+    </div>
+    </figure>   
+    </li>
+    </ul>
+            
+    <!--Sepetim sayfasına yönlenme-->
+       <div class="head-cart">
+        
+       
+      <a href="sepetim.html" >  <input class="btn red" value="SEPETE GİT"  style="background: #e31e24;
+        color: #fff;
+        border-color: #e31e24;
+        font-family: Open Sans, sans-serif;
+        font-size: 14px;
+        padding: 10px 20px;
+        border: solid 1px #ebebeb;
+        border-radius: 25px;
+        box-sizing: border-box;
+        text-decoration: none !important;
+        text-align: center;
+        display: inline-block;" type="button"> </a>
+    </div>
+       </div>
+    
+    
+    
+    
+    
+    
+    
+               </div>
+       </div>
+        </div>
+    
+    
+    
+    
+          
+            <!--üst fotoğraf-->
+        <div class="top-banner">
+                <a v-bind href="{{link4}}" title="Ekim Kitap Fuarı-2019" >
+                    <picture>
+                        <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\1.png" alt="1" style="width:auto;">
+                     </picture>
+                </a>
+        </div>
+      <!--Slider-->
+    
+        <div class="slideshow-container">
+    
+                <div class="mySlides fade">
+                    <a v-bind href="{{link4}}" title="Xiomi Ürünlerinde İndirim" >
+                  <div class="numbertext"></div>
+                  <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\8.png" style="width:100%">
+                
+                </div>
+                
+                <div class="mySlides fade">
+                        <a v-bind href="{{link4}}" title="Plaklarda %35 İndirim" >
+                  <div class="numbertext"></div>
+                  <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\10.png" style="width:100%">
+                 
+                </div>
+                
+                <div class="mySlides fade">
+                        <a v-bind href="{{link4}}" title="Seçili Oyuncaklarda İndirim" >
+                  <div class="numbertext"></div>
+                  <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\11.png" style="width:100%">
+                
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                <!--Reklam linki-->
+                <div class="container">
+                        <div class="highlight" style=font-size:14px!important;color:#ffffff!important;background:#ff0000!important;> 
+                                <p><a target="" style=color:#ffffff!important;><span>Apple Watch Seri 4 Uzay Grisi 2899 TL</span>></a>
+                                    
+                                </p>
+                
+                        </div>
+                 </div>  
+                    <!--Burada bazı kategorilerden bazı ürünler gösteriliyor.-->
+                        <section class="shelf">
+                            <div class="container">
+    
+                                    <header>
+    
+                                         <h2>Kitap  <a href="/kategori/Kitap"   style="color: grey;align-items: flex-end;font: bold;font-size: small;" >TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+                
+                
+                                    </header>
+                                        
+                     
+    
+                            </div>
+                             <!--Ürünler-->
+                            <div class="row">
+                                    <a href="" title="Başka Bir Şey" >
+                                        <picture>
+                                            <img  style="box-shadow: grey 10px 10 px"  src="C:\Users\eliff\OneDrive\Masaüstü\foto\k2.png" alt="k2" width="200" >
+                                         </picture>
+                                    </a>
+    
+                                    <a href="" title="Kalbimin Can Mayası" >
+                                            <picture>
+                                                <img  src="C:\Users\eliff\OneDrive\Masaüstü\foto\k1.png" alt="k1" width="200" >
+                                             </picture>
+                                        </a>
+                                     <a href="" title="Issız Kadınlar Sokağı" >
+                                            <picture>
+                                               <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k3.png" alt="k3" width="200" >
+                                             </picture>
+                                        </a>    
+    
+                                     <a href="" title="Einstein Hakkında Bilmediğiniz 101 Şey" >
+                                                <picture>
+                                                    <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k4.png" alt="k4" width="200" >
+                                                 </picture>
+                                            </a>  
+                                     <a href="" title="Bu Kitabı Sakın Okuma" >
+                                                  <picture>
+                                                      <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k5.png" alt="k5" width="200" >
+                                                  </picture>
+                                                </a>  
+                                    <a href="" title="Derde Deva Randevu-2" >
+                                                 <picture>
+                                                        <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k6.png" alt="k6" width="200" >
+                                                     </picture>
+                                                  </a>                    
+    
+    
+                            </div>     
+                            
+                        </section>
+    
+                        <section class="shelf">
+                                <div class="container">
+        
+                                        <header>
+        
+                                             <h2>Kırtasiye <a href="/kategori/Kitap" style="color: grey;align-items: flex-end;font: bold;font-size: small;">TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+                    
+                    
+                                        </header>
+                                            
+                                        
+        
+                                </div>
+                                <div class="row">
+                                        <a href="" title="Le Color Akademik Ajanda" >
+                                            <picture>
+                                                <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k7.png" alt="k7" width="200"  >
+                                             </picture>
+                                        </a>
+        
+                                        <a href="" title="Big Evolution Üçgen Kalemi" >
+                                                <picture>
+                                                    <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k8.png" alt="k8" width="200" >
+                                                 </picture>
+                                            </a>
+                                         <a href="" title="Lammy Safari Roller Kalem" >
+                                                <picture>
+                                                   <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k9.png" alt="k9" width="200" >
+                                                 </picture>
+                                            </a>    
+        
+                                         <a href="" title="Benetton Anaokulu Çantası" >
+                                                    <picture>
+                                                        <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k10.png" alt="k10" width="200" >
+                                                     </picture>
+                                                </a>  
+                                         <a href="" title="Uhu Stic Rio" >
+                                                      <picture>
+                                                          <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k11.png" alt="k11" width="200" >
+                                                      </picture>
+                                                    </a>  
+                                        <a href="" title="Top Model Pembe Friends Kalem Kutu" >
+                                                     <picture>
+                                                            <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\k12.png" alt="k12" width="200" >
+                                                         </picture>
+                                                      </a>                    
+        
+        
+                                </div>     
+                                
+                            </section>
+    
+                                
+                        </section>
+    
+                        <section class="shelf">
+                                <div class="container">
+        
+                                        <header>
+        
+                                             <h2>Elektronik <a href="/kategori/Kitap"   style="color: grey;align-items: flex-end;font: bold;font-size: small;" >TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+                    
+                    
+                                        </header>
+                                            
+                                        
+        
+                                </div>
+                                <div class="row">
+                                        <a href="" title="Ekim Kitap Fuarı-2019" >
+                                            <picture>
+                                                <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\e1.png" alt="e1" width="200" >
+                                             </picture>
+                                        </a>
+        
+                                        <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                <picture>
+                                                    <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\e2.png" alt="e2" width="200" >
+                                                 </picture>
+                                            </a>
+                                         <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                <picture>
+                                                   <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\e3.png" alt="e3" width="200" >
+                                                 </picture>
+                                            </a>    
+        
+                                         <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                    <picture>
+                                                        <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\e4.png" alt="e4" width="200" >
+                                                     </picture>
+                                                </a>  
+                                         <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                      <picture>
+                                                          <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\e5.png" alt="e5" width="200" >
+                                                      </picture>
+                                                    </a>  
+                                        <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                     <picture>
+                                                            <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\e6.png" alt="e6" width="200" >
+                                                         </picture>
+                                                      </a>                    
+        
+        
+                                </div>     
+                                
+                            </section>
+                                
+                        </section>
+    
+                        <section class="shelf">
+                                <div class="container">
+        
+                                        <header>
+        
+                                             <h2>Hobi&Oyuncak <a href="/kategori/Kitap"  style="color: grey;align-items: flex-end;font: bold;font-size: small;" >TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+                    
+                    
+                                        </header>
+                                            
+                                        
+        
+                                </div>
+                                <div class="row">
+                                        <a href="" title="Ekim Kitap Fuarı-2019" >
+                                            <picture>
+                                                <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\h1.png" alt="h1" width="200" >
+                                             </picture>
+                                        </a>
+        
+                                        <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                <picture>
+                                                    <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\h2.png" alt="h2" width="200" >
+                                                 </picture>
+                                            </a>
+                                         <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                <picture>
+                                                   <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\h3.png" alt="h3" width="200" >
+                                                 </picture>
+                                            </a>    
+        
+                                         <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                    <picture>
+                                                        <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\h4.png" alt="h4" width="200" >
+                                                     </picture>
+                                                </a>  
+                                         <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                      <picture>
+                                                          <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\h5.png" alt="h5" width="200" >
+                                                      </picture>
+                                                    </a>  
+                                        <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                     <picture>
+                                                            <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\h6.png" alt="h6" width="200" >
+                                                         </picture>
+                                                      </a>                    
+        
+        
+                                </div>     
+                                
+                            </section>
+    
+                            <section class="shelf">
+                                    <div class="container">
+            
+                                            <header>
+            
+                                                 <h2>Oyun&Konsol <a href="/kategori/Kitap"   style="color: grey;align-items: flex-end;font: bold;font-size: small;" >TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+                        
+                        
+                                            </header>
+                                                
+                                            
+            
+                                    </div>
+                                    <div class="row">
+                                            <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                <picture>
+                                                    <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\o1.png" alt="o1" width="200" >
+                                                 </picture>
+                                            </a>
+          
+                                            <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                    <picture>
+                                                        <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\o2.png" alt="o2" width="200" >
+                                                     </picture>
+                                                </a>
+                                             <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                    <picture>
+                                                       <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\o3.png" alt="o3" width="200" >
+                                                     </picture>
+                                                </a>    
+            
+                                             <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                        <picture>
+                                                            <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\o4.png" alt="o4" width="200" >
+                                                         </picture>
+                                                    </a>  
+                                             <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                          <picture>
+                                                              <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\o5.png" alt="o5" width="200" >
+                                                          </picture>
+                                                        </a>  
+                                            <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                         <picture>
+                                                                <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\o6.png" alt="o6" width="200" >
+                                                             </picture>
+                                                          </a>                    
+            
+            
+                                    </div>     
+                                    
+                                </section>
+    
+                                <section class="shelf">
+                                        <div class="container">
+                
+                                                <header>
+                
+                                                     <h2>Müzik <a href="/kategori/Kitap"  style="color: grey;align-items: flex-end;font: bold;font-size: small;" >TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+                            
+                            
+                                                </header>
+                                                    
+                                                
+                
+                                        </div>
+                                        <div class="row">
+                                                <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                    <picture>
+                                                        <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\m1.png" alt="m1" width="200" >
+                                                     </picture>
+                                                </a>
+                
+                                                <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                        <picture>
+                                                            <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\m2.png" alt="m2" width="200" >
+                                                         </picture>
+                                                    </a>
+                                                 <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                        <picture>
+                                                           <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\m3.png" alt="m3" width="200" >
+                                                         </picture>
+                                                    </a>    
+                
+                                                 <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                            <picture>
+                                                                <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\m4.png" alt="m4" width="200" >
+                                                             </picture>
+                                                        </a>  
+                                                 <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                              <picture>
+                                                                  <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\m5.png" alt="m5" width="200" >
+                                                              </picture>
+                                                            </a>  
+                                                <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                             <picture>
+                                                                    <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\m6.png" alt="m6" width="200" >
+                                                                 </picture>
+                                                              </a>                    
+                
+                
+                                        </div>     
+                                        
+                                    </section>
+                                    <section class="shelf">
+                                            <div class="container">
+                    
+                                                    <header>
+                    
+                                                         <h2>Film<a href="/kategori/Kitap"  style="color: grey;align-items: flex-end;font: bold;font-size: small;">TÜMÜNÜ GÖRÜNTÜLE</a></h2> 
+                                
+                                
+                                                    </header>
+                                                        
+                                                    
+                    
+                                            </div>
+                                            <div class="row">
+                                                    <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                        <picture>
+                                                            <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\f1.png" alt="f1" width="200" >
+                                                         </picture>
+                                                    </a>
+                    
+                                                    <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                            <picture>
+                                                                <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\f2.png" alt="f2" width="200" >
+                                                             </picture>
+                                                        </a>
+                                                     <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                            <picture>
+                                                               <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\f3.png" alt="f3" width="200" >
+                                                             </picture>
+                                                        </a>    
+                    
+                                                     <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                                <picture>
+                                                                    <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\f4.png" alt="f4" width="200" >
+                                                                 </picture>
+                                                            </a>  
+                                                     <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                                  <picture>
+                                                                      <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\f5.png" alt="f5" width="200" >
+                                                                  </picture>
+                                                                </a>  
+                                                    <a href="" title="Ekim Kitap Fuarı-2019" >
+                                                                 <picture>
+                                                                        <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\f6.png" alt="f6" width="200" >
+                                                                     </picture>
+                                                                  </a>                    
+                    
+                    
+                                            </div>     
+                                            
+                                        </section>
+                                        <!--Alt fotoğraflar-->
+                                        <div id=app>
+                                              <a v-bind:href="link1">
+                                                  <picture>  <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\5.png" alt="5" width="500" > </picture> </a>
+                                         <a v-bind:href="link2">
+                                                 <picture>  <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\7.png" alt="7" width="500" > </picture> </a>  
+                                          <a v-bind:href="link3">
+                                                <picture>  <img src="C:\Users\eliff\OneDrive\Masaüstü\foto\fab.png" alt="fab" width="500" > </picture> </a> 
+                                        </div>      
+    
+                                        <!--Footer-->
+                                
+                                        <div id="buton">
+                                            <button style="position: fixed;left:0;bottom: 0; background: #e31e24;
+                                            color: #fff;
+                                            border-color: #e31e24;
+                                        
+                                            font-family: Open Sans, sans-serif;
+                                            font-size: 14px;
+                                            padding: 10px 20px;
+                                            border: solid 1px #ebebeb;
+                                            border-radius: 25px;
+                                            box-sizing: border-box;
+                                            text-decoration: none !important;
+                                            text-align: center;
+                                            display: inline-block;
+                                            margin: 10px;"  v-on:click="show = !show">
+                                              Footer         </button>
+                                            <transition name="fade">
+                                              <p v-if="show">   <footer >
+                                                <div class="container" style="width:1500;">
+                                                    <nav class="footerNav" style="background:whitesmoke; height: 300px;">
+                                                            <div style="text-align: center;" id="menu" class="altmenu">
+                                                                    <a href="" >D&R Hakkında</a>
+                                                                    <a href="">D&R Kart</a>
+                                                                    <a href="">Yardım/SSS</a>
+                                                                    <a href="">Kampanyalar</a>
+                                                                    <a href="">D&R Mağazalar</a>
+                                                                    <a href="">Mobil Uygulamalar</a>
+                                                                    <a href="">İşlem Rehberi</a>
+                                                                    <a href="">Kırtasiye</a>
+                                                                    <a href="">Sanal Hediye Kartı</a>
+                                                                    <a href="">İletişim</a>
+                                                                    <a href="">Mağaza Etkinlikleri</a>
+                                                                    <a href="">Kitap Fuarı</a>
+                                                            </div>
+                                            
+                                                            
+                                                    
+                                                    <div class="channels" style="background:#f2f2f2; width: 1500px">
+                                                        <ul class="social" style="background:#f2f2f2">
+                                                            <li class="fb"><a href="http://www.facebook.com/DRdunyasi" target="_blank"><i class="icon-facebook" ></i><img src="foto\facebook.png" alt="facebook"/></i></a></li>
+                                                            <li class="twitter"><a href="http://twitter.com/DRDunyasi" target="_blank"><i class="icon-twitter"><img src="foto\twitter.png" alt="twitter"/></i></a></li>
+                                                            <li class="instagram"><a href="http://instagram.com/dr_dunyasi" target="_blank"><i class="icon-instagram-yeni"><img src="foto\instagram.png" alt="instagram"/></i></a></li>
+                                                            <li class="android"><a href="http://www.dr.com.tr/Common/PageContent/DR_MobilUygulamalar"><img class="lazyload" img src="foto\google-play.png" alt="Google Play"/></a></li>
+                                                            <li class="android"><a href="http://www.dr.com.tr/Common/PageContent/DR_MobilUygulamalar"><img class="lazyload" img src="foto\app-store.png" alt="App Store"/></a></li>
+                                                        </ul>
+                                            
+                                                    </div>
+                                                    </nav>
+                                                </div>
+                                              
+                                            </footer> </p>
+                                            </transition>
+                                          </div>
+                         
+                            
+                    
+                                
+                            
+                           
+                
+       <script src="d&r.js">
+       
+       </script>
+       
+    
+    </body>
+    </html>
+     
+  

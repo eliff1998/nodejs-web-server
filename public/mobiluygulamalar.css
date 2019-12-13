@@ -1,0 +1,157 @@
+
+
+
+.container {
+    width: 956px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+
+
+
+
+
+section.apps header {
+    margin: 0;
+    padding: 10px 0 30px;
+    background: none;
+    position: relative;
+    text-align: center;
+    height: auto;
+}
+
+header:after {
+    content: " ";
+    display: table;
+}
+
+section.apps header h2 {
+    margin: 0;
+    padding: 0 20px;
+    background: #fff;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+col-sm-4 {
+    width: 35%;
+    
+    position: relative;
+    min-height: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+ section.apps .apps-list .app-thumb {
+    text-align: center;
+    margin-top: 30px;
+}
+
+  section.apps .apps-list .app-thumb .cell {
+    margin-bottom: 16px;
+    padding: 10px 0;
+}
+
+section.apps .apps-list .app-thumb .cell figure {
+
+    height: 200px;
+    border-radius: 3px;
+    position: relative;
+}
+
+section.apps .apps-list .app-thumb .cell figure:after {
+    border: solid 2px #fff;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    transition: all 0.4s cubic-bezier(0.03, 0.96, 0.52, 0.98);
+    opacity: 0;
+}
+
+.cell figure {
+    background: #4578b9 !important;
+    width:30%;
+}
+figure {
+    margin: 0;
+    
+}
+.col-sm-8{
+width: 75%;
+float:left;
+position: relative;
+    min-height: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+h3 {
+    font-size: 24px;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+
+body {
+    
+    
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+hr {
+    
+    box-sizing: content-box;
+    height: 0;
+}
+
+ul img {
+    margin: 0 4px;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+element.style {
+    float: left;
+}

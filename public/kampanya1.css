@@ -1,0 +1,44 @@
+.container {
+    width: 930px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col-xs-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.row div img.img-responsive {
+    margin-top: 10px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 110%;
+    height: auto;
+    margin-left: -50px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.col-md-2{
+    float:left;
+    width: 16%;
+    
+
+}

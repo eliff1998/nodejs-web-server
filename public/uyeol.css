@@ -1,0 +1,290 @@
+
+
+
+/*Sayfanın üst bölümü için css*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*dropdown*/
+  
+  li.dropdown {
+    display: inline-block;
+    overflow: hidden;
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  
+  
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: absolute;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  /* dropdown menünün açılıp kapanması*/
+  .dropdown-content a:hover {background-color: white;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .column {
+    float: left;
+    width: 175px;
+    padding: 10px;
+    background-color: white;
+    height: 500px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color:white;
+  }
+   /* sütunlardan sonra kayan kısımları siler */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  li.seachbar {
+  
+    display: inline-block;
+  }
+  .searchinput{
+  
+    display: inline-block;
+    position: absolute;
+    background-color: #f9f9f9;
+  }
+  
+
+/*Üye olmak istiyorum formu*/
+
+.container {
+    width: 1000px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+
+
+.register-form .login-btn a {
+    color: #194f90;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+a {
+    
+    background-color: transparent;
+    box-sizing: border-box;
+
+}
+
+.register-form .login-btn {
+    font-size: 14px;
+    color: #565656;
+    display: block;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color :whitesmoke  ;
+
+
+    
+}
+
+.register-form {
+    width: 375px;
+    float: left;
+    padding: 20px 15px;
+    margin: 30px 3% 0 0;
+    border: solid 1px #f0f0f0;
+    background: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/*buton*/
+.register-form .buttons .red {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom-left-radius:30px;
+}
+
+.btn.red{
+background: #e31e24;
+    color: #fff;
+    border-color: #e31e24;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: solid 1px #ebebeb;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    text-align: center;
+    display: inline-block;
+
+}
+
+register-form .buttons {
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.register-info p:after {
+    clear: both;
+}
+/*popup*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: whitesmoke;
+}
+.popup .content {
+  max-height: 70%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+ 
+ /*footer*/
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom:100px;
+  width: 200%;
+  background-color:whitesmoke;
+  color:whitesmoke;
+}
+
+#menu a{
+  width:300px;
+  height:50px;
+  display: inline-block;
+  margin-left:10;
+  padding:5px;
+  color: #1B1B1B;
+  background-color:whitesmoke;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+footer .channels ul li {
+  display: inline-block;
+  margin-right: 0 0 0 5px;
+  float: right;
+}
+
+footer .channels ul {
+  display: inline-block;
+  vertical-align: middle;
+}

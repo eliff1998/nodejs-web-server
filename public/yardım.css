@@ -1,0 +1,67 @@
+section.fqa header h2 {
+    margin: 0;
+    padding: 0 20px;
+    background: #fff;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+section.fqa header {
+    
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 30px;
+    background: none;
+    position: relative;
+    
+    height: auto;
+}
+
+.tabs, .tabs.default {
+    text-align: center;
+    margin-bottom: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.tab-style {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+section.fqa .tab-style li {
+    width: 16.5%;
+    float: left;
+}
+.col-md-15, section.fqa .tab-style li {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.tab-style li {
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    width:15%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+
+}
+
+.tab-style li a.active{
+    color: #000;
+    border-color: #000;
+}
+.tab-style li a {
+    display: block;
+    border-bottom: solid 3px #d8d8d8;
+    color: #878787;
+    padding: 15px 0;
+}
